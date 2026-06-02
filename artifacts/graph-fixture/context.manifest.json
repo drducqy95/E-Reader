@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": "D:\\APP\\e-reader\\artifacts\\graph-fixture\\context.source.sqlite",
+  "target": "D:\\APP\\e-reader\\artifacts\\graph-fixture\\context.mobile.sqlite",
+  "bytes": 61440,
+  "sha256": "ba4e8592817abafbbd6cd3ba1ec7f947f2117679743ae7b120ec85dcb1e90f63",
+  "packageMode": "bundledAsset",
+  "runtimeTables": [
+    "graph_context_index",
+    "graph_cooccurrence",
+    "graph_edges_compact",
+    "graph_manifest",
+    "graph_node_ids",
+    "graph_node_labels",
+    "graph_nodes",
+    "graph_term_index",
+    "graph_versions"
+  ],
+  "stats": {
+    "nodes": 2,
+    "terms": 1,
+    "contextRows": 1,
+    "grammarNodes": 1,
+    "universeTerms": 1,
+    "cooccurrenceRows": 1
+  },
+  "capabilities": {
+    "grammar": true,
+    "contextUniverse": true,
+    "cooccurrence": true
+  },
+  "warnings": []
+}

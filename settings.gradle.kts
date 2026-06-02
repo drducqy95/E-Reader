@@ -22,6 +22,10 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "My Application"
+rootProject.name = "DrDuc E-Reader"
 
 include(":app")
+include(":modules:rhino")
+include(":modules:drduc-engine")
+include(":modules:legado-core")
+include(":modules:web-service")

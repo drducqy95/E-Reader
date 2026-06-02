@@ -1,0 +1,86 @@
+﻿[
+    {
+        "source":  "Truyện Full",
+        "stage":  "detail/toc",
+        "chars":  0,
+        "title":  "",
+        "note":  "detail/toc: {\"isSuccess\":false,\"errorMsg\":\"org.mozilla.javascript.EvaluatorException: The choice of Java method java.lang.String.replace matching JavaScript argument types (object,string) is ambiguous; candidate methods are: \\n    class java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)\\n    class java.lang.String replace(char,char) (#192) in  at line number 192\",\"data\":null}"
+    },
+    {
+        "source":  "quanben - repo duongden",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    },
+    {
+        "source":  "言情小说阁 (APP)",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    },
+    {
+        "source":  "Người Lao Động",
+        "stage":  "PASS",
+        "chars":  2654,
+        "title":  "Phó Cục trưởng thuộc Bộ Công Thương nói lý do không bán xăng khoáng",
+        "note":  "tabs=1, listed=40, chapters=1"
+    },
+    {
+        "source":  "vietnamnet",
+        "stage":  "PASS",
+        "chars":  2343,
+        "title":  "Tổng Bí thư, Chủ tịch nước dâng hoa tại tượng Chủ tịch Hồ Chí Minh ở Singapore",
+        "note":  "tabs=25, listed=25, chapters=1"
+    },
+    {
+        "source":  "Tuổi Trẻ",
+        "stage":  "PASS",
+        "chars":  3037,
+        "title":  "Sơn Tùng lên tiếng giữa tranh cãi MV Come my way",
+        "note":  "tabs=1, listed=21, chapters=1"
+    },
+    {
+        "source":  "vnexpress",
+        "stage":  "PASS",
+        "chars":  1956,
+        "title":  "Tàu cao tốc từ trung tâm TP HCM đi Côn Đảo vận hành trở lại",
+        "note":  "tabs=13, listed=33, chapters=1"
+    },
+    {
+        "source":  "soha",
+        "stage":  "PASS",
+        "chars":  6598,
+        "title":  "Từ hôm nay, Việt Nam bán xăng E10 trên toàn quốc, Mỹ, Trung Quốc, Thái Lan… có dùng không?",
+        "note":  "tabs=1, listed=52, chapters=1"
+    },
+    {
+        "source":  "x33xs4",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    },
+    {
+        "source":  "Tinh Linh",
+        "stage":  "PASS",
+        "chars":  3053,
+        "title":  "Cố Tổng Lại Phát Điên Rồi",
+        "note":  "tabs=13, listed=24, chapters=300"
+    },
+    {
+        "source":  "Dịch truyện tự động từ Qidian",
+        "stage":  "PASS",
+        "chars":  36056,
+        "title":  "Cắn nuốt cửu chuyển chí tôn",
+        "note":  "tabs=9, listed=12, chapters=88"
+    },
+    {
+        "source":  "ebookbao",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    }
+]

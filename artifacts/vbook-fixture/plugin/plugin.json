@@ -1,0 +1,17 @@
+{
+    "metadata":  {
+                     "source":  "http://127.0.0.1:18080",
+                     "name":  "VBOOK_EMULATOR_FIXTURE",
+                     "author":  "Codex",
+                     "description":  "Deterministic emulator VBook fixture",
+                     "version":  1
+                 },
+    "script":  {
+                   "search":  "search.js",
+                   "toc":  "toc.js",
+                   "gen":  "gen.js",
+                   "home":  "home.js",
+                   "detail":  "detail.js",
+                   "chap":  "chap.js"
+               }
+}

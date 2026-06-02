@@ -1,0 +1,3 @@
+VBook fixture listening at http://127.0.0.1:18080
+"POST /v1/chat/completions HTTP/1.1" 200 -
+"POST /v1/chat/completions HTTP/1.1" 200 -

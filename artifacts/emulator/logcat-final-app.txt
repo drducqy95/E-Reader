@@ -1,0 +1,39 @@
+﻿--------- beginning of main
+06-01 17:46:41.959  6240  6240 I io.ereader.xynk: Late-enabling -Xcheck:jni
+06-01 17:46:42.046  6240  6240 I io.ereader.xynk: Using CollectorTypeCMC GC.
+06-01 17:46:42.047  6240  6240 W io.ereader.xynk: Unexpected CPU variant for x86: x86_64.
+06-01 17:46:42.047  6240  6240 W io.ereader.xynk: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+06-01 17:46:42.212  6240  6240 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-01 17:46:43.328  6240  6240 D nativeloader: Configuring clns-9 for other apk /data/app/~~SI9ye1myYff1kSt0X2L7Qg==/com.aistudio.ereader.xynk-TfLDC0RkJl7_W52KagD2bg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~SI9ye1myYff1kSt0X2L7Qg==/com.aistudio.ereader.xynk-TfLDC0RkJl7_W52KagD2bg==/lib/x86_64:/data/app/~~SI9ye1myYff1kSt0X2L7Qg==/com.aistudio.ereader.xynk-TfLDC0RkJl7_W52KagD2bg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.aistudio.ereader.xynk
+06-01 17:46:43.338  6240  6240 I io.ereader.xynk: AssetManager2(0x7184c5c0f118) locale list changing from [] to [en-US]
+06-01 17:46:43.346  6240  6240 V GraphicsEnvironment: Currently set values for:
+06-01 17:46:43.346  6240  6240 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-01 17:46:43.346  6240  6240 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-01 17:46:43.346  6240  6240 V GraphicsEnvironment: com.aistudio.ereader.xynk is not listed in per-application setting
+06-01 17:46:43.347  6240  6240 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+06-01 17:46:43.347  6240  6240 V GraphicsEnvironment: com.aistudio.ereader.xynk is not listed in ANGLE allowlist or settings, returning default
+06-01 17:46:43.347  6240  6240 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-01 17:46:43.402  6240  6240 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+06-01 17:46:43.701  6240  6240 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+06-01 17:46:43.701  6240  6240 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+06-01 17:46:43.819  6240  6292 D WM-ForceStopRunnable: The default process name was not specified.
+06-01 17:46:43.821  6240  6292 D WM-ForceStopRunnable: Performing cleanup operations.
+06-01 17:46:43.839  6240  6292 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+--------- beginning of system
+06-01 17:46:43.985  6240  6296 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+06-01 17:46:43.994  6240  6240 I io.ereader.xynk: AssetManager2(0x7184c5c0d818) locale list changing from [] to [en-US]
+06-01 17:46:43.997  6240  6293 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+06-01 17:46:44.059  6240  6296 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-01 17:46:44.061  6240  6296 I EGL_emulation: Opening libGLESv2_emulation.so
+06-01 17:46:44.069  6240  6296 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-01 17:46:44.069  6240  6296 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-01 17:46:44.076  6240  6240 D CompatChangeReporter: Compat change id reported: 377864165; UID 10225; state: ENABLED
+06-01 17:46:44.079  6240  6240 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+06-01 17:46:44.207  6240  6240 W HWUI    : Unknown dataspace 0
+06-01 17:46:45.317  6240  6250 I io.ereader.xynk: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+06-01 17:46:46.153  6240  6270 I HWUI    : Davey! duration=1893ms; Flags=1, FrameTimelineVsyncId=34876, IntendedVsync=1825830524756, Vsync=1826013858082, InputEventId=0, HandleInputStart=1826026808300, AnimationStart=1826026835400, PerformTraversalsStart=1826026870900, DrawStart=1827589446600, FrameDeadline=1825847191422, FrameStartTime=1826026272100, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=1827636141300, SyncStart=1827641710700, IssueDrawCommandsStart=1827641957900, SwapBuffers=1827695634100, FrameCompleted=1827729748200, DequeueBufferDuration=35200, QueueBufferDuration=31027700, GpuCompleted=1827729485700, SwapBuffersCompleted=1827729748200, DisplayPresentTime=0, CommandSubmissionCompleted=1827695634100, 
+06-01 17:46:46.199  6240  6240 I Choreographer: Skipped 100 frames!  The application may be doing too much work on its main thread.
+06-01 17:46:46.270  6240  6270 I HWUI    : Davey! duration=1718ms; Flags=0, FrameTimelineVsyncId=34913, IntendedVsync=1826130524744, Vsync=1827797191344, InputEventId=0, HandleInputStart=1827805855900, AnimationStart=1827805914400, PerformTraversalsStart=1827829732900, DrawStart=1827831909100, FrameDeadline=1827747191346, FrameStartTime=1827804344400, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=1827832652000, SyncStart=1827833968000, IssueDrawCommandsStart=1827834158900, SwapBuffers=1827835264500, FrameCompleted=1827850032800, DequeueBufferDuration=2564900, QueueBufferDuration=855500, GpuCompleted=1827850032800, SwapBuffersCompleted=1827848369300, DisplayPresentTime=0, CommandSubmissionCompleted=1827835264500, 
+06-01 17:46:46.278  6240  6240 D InsetsController: hide(ime(), fromIme=false)
+06-01 17:46:46.279  6240  6240 I ImeTracker: com.aistudio.ereader.xynk:5db3247f: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+06-01 17:46:49.373  6240  6315 D ProfileInstaller: Installing profile for com.aistudio.ereader.xynk

@@ -1,0 +1,432 @@
+﻿{
+    "isSuccess":  true,
+    "errorMsg":  "",
+    "data":  {
+                 "installable":  [
+                                     {
+                                         "id":  "Truyện Full-vBook",
+                                         "name":  "Truyện Full",
+                                         "author":  "vBook",
+                                         "version":  12,
+                                         "source":  "https://truyenfull.today",
+                                         "description":  "Đọc truyện trên trang Truyện Full",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "page",
+                                                         "page.js",
+                                                         "search",
+                                                         "search.js",
+                                                         "toc",
+                                                         "toc.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "quanben - repo duongden-hajljnopera",
+                                         "name":  "quanben - repo duongden",
+                                         "author":  "hajljnopera",
+                                         "version":  4,
+                                         "source":  "https://quanben.io",
+                                         "description":  "Đọc truyện trên trang quanben.io",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "libs.js",
+                                                         "toc",
+                                                         "toc.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "言情小说阁 (APP)-Nhocconsr",
+                                         "name":  "言情小说阁 (APP)",
+                                         "author":  "Nhocconsr",
+                                         "version":  1,
+                                         "source":  "http://www.xianqihaotianmi.org",
+                                         "description":  "Mô tả",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "crypto.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "search",
+                                                         "search.js",
+                                                         "suggest.js",
+                                                         "toc",
+                                                         "toc.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "Người Lao Động-Đường đen",
+                                         "name":  "Người Lao Động",
+                                         "author":  "Đường đen",
+                                         "version":  2,
+                                         "source":  "https://nld.com.vn",
+                                         "description":  "Người Lao Động",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "toc",
+                                                         "toc.js",
+                                                         "zen2.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "vietnamnet-Đường đen",
+                                         "name":  "vietnamnet",
+                                         "author":  "Đường đen",
+                                         "version":  2,
+                                         "source":  "https://vietnamnet.vn",
+                                         "description":  "Đọc vietnamnet",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "toc",
+                                                         "toc.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "Tuổi Trẻ-Đường đen",
+                                         "name":  "Tuổi Trẻ",
+                                         "author":  "Đường đen",
+                                         "version":  2,
+                                         "source":  "https://tuoitre.vn",
+                                         "description":  "Đọc Tuổi Trẻ",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "toc",
+                                                         "toc.js",
+                                                         "zen2.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "vnexpress-Đường đen",
+                                         "name":  "vnexpress",
+                                         "author":  "Đường đen",
+                                         "version":  3,
+                                         "source":  "https://vnexpress.net",
+                                         "description":  "Đọc vnexpress",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "toc",
+                                                         "toc.js",
+                                                         "zen.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "soha-Đường đen",
+                                         "name":  "soha",
+                                         "author":  "Đường đen",
+                                         "version":  2,
+                                         "source":  "https://m.soha.vn",
+                                         "description":  "Đọc soha",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "toc",
+                                                         "toc.js",
+                                                         "zen.js",
+                                                         "zen2.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "x33xs4-Đường đen",
+                                         "name":  "x33xs4",
+                                         "author":  "Đường đen",
+                                         "version":  2,
+                                         "source":  "https://www.x33xs6.com",
+                                         "description":  "Đọc truyện trên trang x33xs6.com",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "search.js",
+                                                         "toc",
+                                                         "toc.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "Tinh Linh-Đường đen",
+                                         "name":  "Tinh Linh",
+                                         "author":  "Đường đen",
+                                         "version":  2,
+                                         "source":  "https://tinhlinh.com",
+                                         "description":  "Read novel https://tinhlinh.com",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "search",
+                                                         "search.js",
+                                                         "toc",
+                                                         "toc.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "Dịch truyện tự động từ Qidian-Đường đen",
+                                         "name":  "Dịch truyện tự động từ Qidian",
+                                         "author":  "Đường đen",
+                                         "version":  3,
+                                         "source":  "https://q.kyhuyen.com",
+                                         "description":  "Read novel q.kyhuyen",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "search",
+                                                         "search.js",
+                                                         "similar.js",
+                                                         "toc",
+                                                         "toc.js"
+                                                     ]
+                                     },
+                                     {
+                                         "id":  "ebookbao-Đường đen",
+                                         "name":  "ebookbao",
+                                         "author":  "Đường đen",
+                                         "version":  4,
+                                         "source":  "https://m.ebookbao6.com",
+                                         "description":  "Có thể sửa domain bằng mã bổ sung. Đọc truyện trên trang https://m.ebookbao6.com/",
+                                         "scripts":  [
+                                                         "chap",
+                                                         "chap.js",
+                                                         "config.js",
+                                                         "detail",
+                                                         "detail.js",
+                                                         "gen.js",
+                                                         "genre",
+                                                         "genre.js",
+                                                         "home",
+                                                         "home.js",
+                                                         "search",
+                                                         "search.js",
+                                                         "toc",
+                                                         "toc.js",
+                                                         "zen.js"
+                                                     ]
+                                     }
+                                 ],
+                 "issues":  [
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/truyendexuat/plugin.zip",
+                                    "message":  "Nguồn truyện Truyện đề xuất dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/truyentvsite/plugin.zip",
+                                    "message":  "Nguồn truyện Truyện TV dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/ocuadua/plugin.zip",
+                                    "message":  "Nguồn truyện Ổ của Dưa dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/xbanxia/plugin.zip",
+                                    "message":  "Script not found: search.js"
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/uuxs-com/plugin.zip",
+                                    "message":  "Nguồn truyện uuxs dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/czbooks/plugin.zip",
+                                    "message":  "Nguồn truyện czbooks - repo Đường đen dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/deqixs/plugin.zip",
+                                    "message":  "Nguồn truyện 得奇小说网 - deqixs dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/sweetastes/plugin.zip",
+                                    "message":  "Nguồn truyện sweetastes dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/weibo/plugin.zip",
+                                    "message":  "Nguồn truyện weibo dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/wodeshucheng5/plugin.zip",
+                                    "message":  "Nguồn truyện wodeshucheng5 dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/75zwcom/plugin.zip",
+                                    "message":  "Nguồn truyện 75zwcom dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/sudugu/plugin.zip",
+                                    "message":  "Nguồn truyện 速读谷 - Sudugu dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/69shu/plugin.zip",
+                                    "message":  "Nguồn truyện 69shu - repo Đường đen dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/qimao/plugin.zip",
+                                    "message":  "Nguồn truyện Qimao (七猫文化) dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/07br/plugin.zip",
+                                    "message":  "Nguồn truyện 笔趣阁-07br dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/piaotian-app/plugin.zip",
+                                    "message":  "Nguồn truyện piaotian-app dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/85novel/plugin.zip",
+                                    "message":  "Nguồn truyện 85 Novel dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/69shumi/plugin.zip",
+                                    "message":  "Nguồn truyện 69shumi dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/biqugess/plugin.zip",
+                                    "message":  "Nguồn truyện biqugess dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/69hsz/plugin.zip",
+                                    "message":  "Nguồn truyện 69hsz dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/soxscc/plugin.zip",
+                                    "message":  "Nguồn truyện soxscc dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/abcbiquge/plugin.zip",
+                                    "message":  "Nguồn truyện 笔趣阁-abcbiquge dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/yeutruyenonline/plugin.zip",
+                                    "message":  "Nguồn truyện Yêu truyện dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/monkeyd/plugin.zip",
+                                    "message":  "Nguồn truyện MonkeyD VN - repo duongden dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/laophatgia/plugin.zip",
+                                    "message":  "Nguồn truyện Lão phật gia dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/truyencom/plugin.zip",
+                                    "message":  "Nguồn truyện Truyện Com dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/daotruyen/plugin.zip",
+                                    "message":  "Nguồn truyện Đảo truyện dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_VN/truyenmoiii/plugin.zip",
+                                    "message":  "Nguồn truyện Truyện mới org dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjjxsxzw/plugin.zip",
+                                    "message":  "Nguồn truyện 久久小说网 dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novelnext/plugin.zip",
+                                    "message":  "Nguồn truyện Novel Next dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/fanmtl/plugin.zip",
+                                    "message":  "Nguồn truyện FanMTL dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/allnovel/plugin.zip",
+                                    "message":  "Nguồn truyện All Novel dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/VN_news/spiderum/plugin.zip",
+                                    "message":  "Nguồn truyện Spiderum dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/VN_news/sohu/plugin.zip",
+                                    "message":  "Nguồn truyện sohu dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                },
+                                {
+                                    "path":  "https://raw.githubusercontent.com/duongden/vbook/main/VN_news/viblo/plugin.zip",
+                                    "message":  "Nguồn truyện Viblo dùng script mã hóa của VBook. Cần decoder tương thích do tác giả hoặc runtime VBook cung cấp; Rhino không thể chạy trực tiếp gói này."
+                                }
+                            ]
+             }
+}

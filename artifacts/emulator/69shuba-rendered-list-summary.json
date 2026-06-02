@@ -1,0 +1,10 @@
+﻿{
+    "isSuccess":  true,
+    "errorMsg":  "",
+    "data":  {
+                 "url":  "https://www.69shuba.com/novels/newhot_0_0_1.htm",
+                 "length":  1027,
+                 "result":  "{\"href\":\"https://www.69shuba.com/novels/newhot_0_0_1.htm\",\"title\":\"Just a moment...\",\"ready\":\"complete\",\"body\":\"www.69shuba.com\\nPerforming security verification\\n\\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\\n\\nRay ID: a05237ec8c37ce6e\\nPerformance and Security by Cloudflare\\nPrivacy\",\"ids\":[\"FbRG5\",\"jpqrL2\",\"BbLB6\",\"TQpKs1\",\"challenge-success-text\",\"ROlTq4\",\"privacy-link\"],\"classes\":[\"main-wrapper lang-en-us\",\"main-content\",\"ch-title-zone\",\"heading-favicon heading-favicon-hidden\",\"ch-title\",\"ch-description\",\"spacer-top\",\"spacer loading-verifying\",\"lds-ring\",\"footer\",\"footer-inner\",\"footer-wrapper\",\"clearfix diagnostic-wrapper\",\"ray-id\",\"footer-link-wrapper\",\"footer-text\",\"footer-divider\",\"footer-text\"],\"links\":[{\"text\":\"Cloudflare\",\"href\":\"https://www.cloudflare.com/?utm_source=challenge\u0026utm_campaign=m\",\"className\":\"\"},{\"text\":\"Privacy\",\"href\":\"https://www.cloudflare.com/privacypolicy/\",\"className\":\"footer-text\"}]}",
+                 "truncated":  false
+             }
+}

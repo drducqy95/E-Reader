@@ -1,0 +1,11 @@
+﻿{
+    "source":  "69shu - repo Đường đen",
+    "version":  29,
+    "baseUrl":  "http://127.0.0.1:1122",
+    "homeSuccess":  true,
+    "tabs":  7,
+    "listSuccess":  false,
+    "listed":  0,
+    "first":  null,
+    "listError":  "{\"isSuccess\":false,\"errorMsg\":\"https:\\/\\/www.69shuba.com\\/novels\\/newhot_0_0_1.htm\",\"data\":null}"
+}

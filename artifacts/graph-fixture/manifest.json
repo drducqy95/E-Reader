@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": "D:\\APP\\e-reader\\artifacts\\graph-fixture\\source.sqlite",
+  "target": "D:\\APP\\e-reader\\artifacts\\graph-fixture\\mobile.sqlite",
+  "bytes": 49152,
+  "sha256": "f611056dc51312774eb1fc3d1db3d711971ff2ed0f33df7fa1c27c075bcb6e4d",
+  "runtimeTables": [
+    "graph_nodes",
+    "graph_node_labels",
+    "graph_term_index",
+    "graph_context_index",
+    "graph_node_ids",
+    "graph_edges_compact",
+    "graph_manifest",
+    "graph_versions"
+  ]
+}

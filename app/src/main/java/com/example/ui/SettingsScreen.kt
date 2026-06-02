@@ -1,208 +1,248 @@
 package com.example.ui
 
+import android.content.Intent
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.CloudDownload
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.FolderOpen
 import androidx.compose.material.icons.filled.Language
-import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.filled.Storage
 import androidx.compose.material.icons.filled.Translate
-import androidx.compose.material.icons.filled.Download
-import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Slider
+import androidx.compose.material3.Switch
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import kotlinx.coroutines.delay
+import androidx.core.content.ContextCompat
+import com.example.EReaderApplication
+import com.example.data.DictionaryType
+import com.example.data.GraphDownloadScheduler
+import com.example.data.GraphPackageStatus
+import com.example.data.ProductionExpansionConfig
+import com.example.web.LocalWebService
+import java.util.Locale
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(onBack: () -> Unit) {
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                title = { Text("Cài đặt", color = MaterialTheme.colorScheme.onBackground) },
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
-                    }
-                },
-                colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.surface,
-                    titleContentColor = MaterialTheme.colorScheme.onBackground,
-                    navigationIconContentColor = MaterialTheme.colorScheme.onSurface
-                )
-            )
-        },
-        containerColor = MaterialTheme.colorScheme.background
-    ) { padding ->
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(padding)
-                .verticalScroll(rememberScrollState())
-        ) {
-            // User Info Section
-            SettingSection(title = "Thông tin User") {
-                SettingItem(
-                    icon = { Icon(Icons.Default.Person, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant) },
-                    title = "Tài khoản",
-                    subtitle = "drducqy95@gmail.com"
-                )
+    Scaffold(topBar = {
+        TopAppBar(
+            title = { Text("Cài đặt") },
+            navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Quay lại") } }
+        )
+    }) { padding ->
+        Column(Modifier.fillMaxSize().padding(padding).verticalScroll(rememberScrollState())) {
+            SettingSection("Dữ liệu dịch offline") {
+                GraphPackageSettingItem()
+                DictionaryPackagesSetting()
             }
-
-            // System App Settings
-            SettingSection(title = "Cài đặt hệ thống của App") {
-                SettingItem(
-                    icon = { Icon(Icons.Default.Settings, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant) },
-                    title = "Giao diện & Hiển thị",
-                    subtitle = "Sáng, tối, tự động, cỡ chữ, phông chữ"
-                )
-                SettingItem(
-                    icon = { Icon(Icons.Default.Storage, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant) },
-                    title = "Đồng bộ đám mây",
-                    subtitle = "Google Drive (Đang bật)"
-                )
+            SettingSection("Reader dịch") {
+                ReaderDefaultsSettingItem()
+                OnlineProviderSettingItem()
             }
-
-            // Offline Packages Management (TTS & Dictionaries)
-            SettingSection(title = "Quản lý dữ liệu Offline (Tải trong App)") {
-                DownloadableSettingItem(
-                    icon = { Icon(Icons.Default.Translate, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant) },
-                    title = "Từ điển Trung - Việt (125MB)",
-                    subtitle = "Từ điển đồ thị ngữ nghĩa (Cần tải xuống để dùng offline)"
-                )
-                DownloadableSettingItem(
-                    icon = { Icon(Icons.Default.Language, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant) },
-                    title = "Từ điển Anh - Việt (15MB)",
-                    subtitle = "Từ điển cơ bản offline (Cần tải xuống để dùng offline)"
-                )
-                DownloadableSettingItem(
-                    icon = { Icon(Icons.Default.CloudDownload, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant) },
-                    title = "Gói giọng nói tiếng Việt TTS (45MB)",
-                    subtitle = "Trình đọc sách Offline chất lượng cao"
-                )
+            SettingSection("Crawl và công cụ") {
+                WebConsoleSettingItem()
+                SettingItem({ Icon(Icons.Default.Settings, null) }, "Quản lý extension", "Nguồn Legado JSON và VBook JS chạy qua Rhino sandbox.")
             }
-
-            // Backend & Crawl Data Configuration
-            SettingSection(title = "Backend dịch và crawl data (Legado-QT)") {
-                SettingItem(
-                    icon = { Icon(Icons.Default.CloudDownload, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant) },
-                    title = "Cấu hình Server Remote",
-                    subtitle = "http://localhost:8080 (Trạng thái: Hoạt động)"
-                )
-                SettingItem(
-                    icon = { Icon(Icons.Default.Settings, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant) },
-                    title = "Quản lý Extension (Crawl Data)",
-                    subtitle = "Đã kích hoạt 4 extension lấy truyện"
-                )
-            }
-            
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(Modifier.height(32.dp))
         }
+    }
+}
+
+@Composable
+private fun GraphPackageSettingItem() {
+    val context = LocalContext.current
+    val manager = remember { (context.applicationContext as EReaderApplication).graphPackageManager }
+    val scope = rememberCoroutineScope()
+    var status by remember { mutableStateOf(manager.status()) }
+    var busy by remember { mutableStateOf(false) }
+    var error by remember { mutableStateOf<String?>(null) }
+    val production = remember { ProductionExpansionConfig.fromBuild() }
+    val picker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+        if (uri != null) scope.launch {
+            busy = true
+            runCatching {
+                withContext(Dispatchers.IO) { context.contentResolver.openInputStream(uri)?.use { manager.importGraph(it, source = "manual:$uri") } ?: error("Không thể mở file") }
+            }.onSuccess { status = it }.onFailure { error = it.message }
+            busy = false
+        }
+    }
+    PackageRow(
+        icon = { Icon(Icons.Default.Translate, null) },
+        title = "Graph DrDuc",
+        subtitle = when {
+            error != null -> "Lỗi: $error"
+            !status.installed -> "Chưa cài translation_graph.mobile.sqlite"
+            else -> "Version ${status.graphVersion} · ${formatBytes(status.bytes)} · context ${if (status.contextUniverseAvailable) "ready" else "thiếu"}"
+        },
+        onClick = { if (!busy) picker.launch(arrayOf("*/*")) },
+        action = {
+            when {
+                busy -> CircularProgressIndicator(Modifier.size(22.dp), strokeWidth = 2.dp)
+                status.installed -> IconButton(onClick = { manager.deleteGraph(); status = manager.status() }) { Icon(Icons.Default.Delete, "Xóa graph") }
+                production.configured -> IconButton(onClick = { GraphDownloadScheduler.enqueueProduction(context) }) { Icon(Icons.Default.CloudDownload, "Tải graph") }
+                else -> Icon(Icons.Default.FolderOpen, null)
+            }
+        }
+    )
+}
+
+@Composable
+private fun DictionaryPackagesSetting() {
+    val context = LocalContext.current
+    val app = context.applicationContext as EReaderApplication
+    val manager = remember { app.dictionaryPackageManager }
+    val packages by app.database.readerDao().observeDictionaryPackages().collectAsState(emptyList())
+    val scope = rememberCoroutineScope()
+    var pending by remember { mutableStateOf<DictionaryType?>(null) }
+    var error by remember { mutableStateOf<String?>(null) }
+    val picker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+        val type = pending
+        if (uri != null && type != null) scope.launch {
+            runCatching { withContext(Dispatchers.IO) { context.contentResolver.openInputStream(uri)?.use { manager.import(type, it) } ?: error("Không thể mở file") } }
+                .onFailure { error = it.message }
+            pending = null
+        }
+    }
+    LaunchedEffect(Unit) { manager.scanInstalled() }
+    DictionaryType.entries.forEach { type ->
+        val status = packages.firstOrNull { it.type == type.name }
+        PackageRow(
+            icon = { Icon(Icons.Default.Language, null) },
+            title = type.fileName,
+            subtitle = status?.let { "${it.entryCount} mục · ${it.version}" } ?: "Chưa cài · import file hoặc tải bằng API có checksum",
+            onClick = { pending = type; picker.launch(arrayOf("*/*")) },
+            action = {
+                if (status != null) IconButton(onClick = { scope.launch { manager.delete(type) } }) { Icon(Icons.Default.Delete, "Xóa ${type.fileName}") }
+                else Icon(Icons.Default.FolderOpen, null)
+            }
+        )
+    }
+    error?.let { Text("Lỗi dictionary: $it", color = MaterialTheme.colorScheme.error, modifier = Modifier.padding(horizontal = 16.dp)) }
+}
+
+@Composable
+private fun ReaderDefaultsSettingItem() {
+    val app = LocalContext.current.applicationContext as EReaderApplication
+    val settings = app.settingsRepository
+    val scope = rememberCoroutineScope()
+    val refinement by settings.msOnlineRefinement.collectAsState(true)
+    val concurrency by settings.downloadConcurrency.collectAsState(2)
+    val retries by settings.downloadRetries.collectAsState(3)
+    Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Column(Modifier.weight(1f)) { Text("Tinh chỉnh online cho MS"); Text("Hiển thị DrDuc offline trước, refined text sau.", style = MaterialTheme.typography.bodySmall) }
+            Switch(refinement, { scope.launch { settings.setMsOnlineRefinement(it) } })
+        }
+        Text("Tải đồng thời: $concurrency luồng", style = MaterialTheme.typography.bodySmall)
+        Slider(concurrency.toFloat(), { scope.launch { settings.setDownloadConcurrency(it.toInt()) } }, valueRange = 1f..6f, steps = 4)
+        Text("Retry: $retries lần", style = MaterialTheme.typography.bodySmall)
+        Slider(retries.toFloat(), { scope.launch { settings.setDownloadRetries(it.toInt()) } }, valueRange = 1f..6f, steps = 4)
+    }
+}
+
+@Composable
+private fun OnlineProviderSettingItem() {
+    val context = LocalContext.current
+    val store = remember { (context.applicationContext as EReaderApplication).onlineProviderConfigStore }
+    var config by remember { mutableStateOf(store.read()) }
+    PackageRow(
+        icon = { Icon(Icons.Default.Translate, null) },
+        title = "Online refinement",
+        subtitle = if (config.endpoint.isBlank()) "Cấu hình endpoint qua /api/v1/online-provider" else "${config.model.ifBlank { "Chưa chọn model" }} · ${config.endpoint}",
+        action = {
+            Switch(config.enabled, {
+                config = config.copy(enabled = it)
+                store.save(config)
+            }, enabled = config.endpoint.isNotBlank() && config.model.isNotBlank())
+        }
+    )
+}
+
+@Composable
+private fun WebConsoleSettingItem() {
+    val context = LocalContext.current
+    var enabled by remember { mutableStateOf(LocalWebService.isEnabled(context)) }
+    PackageRow(
+        icon = { Icon(Icons.Default.CloudDownload, null) },
+        title = "Local web console",
+        subtitle = "http://127.0.0.1:1122/admin/",
+        action = {
+            Switch(enabled, {
+                enabled = it
+                val intent = Intent(context, LocalWebService::class.java)
+                if (it) ContextCompat.startForegroundService(context, intent) else context.stopService(intent)
+                LocalWebService.setEnabled(context, it)
+            })
+        }
+    )
+}
+
+@Composable
+private fun PackageRow(icon: @Composable () -> Unit, title: String, subtitle: String, onClick: (() -> Unit)? = null, action: (@Composable () -> Unit)? = null) {
+    Row(
+        Modifier.fillMaxWidth().then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier).padding(horizontal = 16.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Box(Modifier.padding(end = 14.dp), contentAlignment = Alignment.Center) { icon() }
+        Column(Modifier.weight(1f)) {
+            Text(title, style = MaterialTheme.typography.titleMedium)
+            Text(subtitle, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        if (action != null) { Spacer(Modifier.width(8.dp)); action() }
     }
 }
 
 @Composable
 fun SettingSection(title: String, content: @Composable ColumnScope.() -> Unit) {
-    Column(modifier = Modifier.fillMaxWidth()) {
-        Text(
-            text = title,
-            style = MaterialTheme.typography.labelLarge,
-            color = MaterialTheme.colorScheme.primary,
-            modifier = Modifier.padding(start = 16.dp, top = 24.dp, bottom = 8.dp, end = 16.dp),
-            fontWeight = FontWeight.Bold
-        )
+    Column(Modifier.fillMaxWidth()) {
+        Text(title, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(start = 16.dp, top = 20.dp, bottom = 6.dp))
         content()
-        HorizontalDivider(modifier = Modifier.padding(top = 8.dp, start = 16.dp, end = 16.dp), color = MaterialTheme.colorScheme.outline.copy(alpha = 0.5f))
+        HorizontalDivider(Modifier.padding(horizontal = 16.dp, vertical = 6.dp))
     }
 }
 
 @Composable
-fun SettingItem(icon: @Composable () -> Unit, title: String, subtitle: String, onClick: () -> Unit = {}) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable(onClick = onClick)
-            .padding(horizontal = 16.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Box(
-            modifier = Modifier.padding(end = 16.dp),
-            contentAlignment = Alignment.Center
-        ) {
-            icon()
-        }
-        Column {
-            Text(text = title, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onBackground)
-            Spacer(modifier = Modifier.height(2.dp))
-            Text(text = subtitle, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        }
-    }
-}
+fun SettingItem(icon: @Composable () -> Unit, title: String, subtitle: String, onClick: () -> Unit = {}) =
+    PackageRow(icon, title, subtitle, onClick)
 
-@Composable
-fun DownloadableSettingItem(icon: @Composable () -> Unit, title: String, subtitle: String) {
-    var downloadState by remember { mutableStateOf(0) } // 0: Not downloaded, 1: Downloading, 2: Downloaded
-    var progress by remember { mutableStateOf(0f) }
-    val coroutineScope = rememberCoroutineScope()
-
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable {
-                if (downloadState == 0) {
-                    downloadState = 1
-                    coroutineScope.launch {
-                        for (i in 1..100) {
-                            delay(30)
-                            progress = i / 100f
-                        }
-                        downloadState = 2
-                    }
-                }
-            }
-            .padding(horizontal = 16.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Box(
-            modifier = Modifier.padding(end = 16.dp),
-            contentAlignment = Alignment.Center
-        ) {
-            icon()
-        }
-        Column(modifier = Modifier.weight(1f)) {
-            Text(text = title, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onBackground)
-            Spacer(modifier = Modifier.height(2.dp))
-            Text(
-                text = if (downloadState == 2) "Đã tải xuống" else subtitle,
-                style = MaterialTheme.typography.bodySmall,
-                color = if (downloadState == 2) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
-            )
-            if (downloadState == 1) {
-                Spacer(modifier = Modifier.height(4.dp))
-                LinearProgressIndicator(
-                    progress = { progress },
-                    modifier = Modifier.fillMaxWidth().height(4.dp),
-                    color = MaterialTheme.colorScheme.primary,
-                    trackColor = MaterialTheme.colorScheme.surfaceVariant
-                )
-            }
-        }
-        Box(modifier = Modifier.padding(start = 16.dp)) {
-            when (downloadState) {
-                0 -> Icon(Icons.Default.Download, contentDescription = "Tải xuống", tint = MaterialTheme.colorScheme.primary)
-                1 -> CircularProgressIndicator(modifier = Modifier.size(24.dp), strokeWidth = 2.dp, color = MaterialTheme.colorScheme.primary)
-                2 -> Icon(Icons.Default.CheckCircle, contentDescription = "Hoàn tất", tint = MaterialTheme.colorScheme.primary)
-            }
-        }
-    }
-}
+private fun formatBytes(bytes: Long): String = String.format(Locale.US, "%.1f MiB", bytes / (1024.0 * 1024.0))

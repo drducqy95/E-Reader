@@ -1,0 +1,1 @@
+function execute(input,page){return Response.success(fetch(input).json());}

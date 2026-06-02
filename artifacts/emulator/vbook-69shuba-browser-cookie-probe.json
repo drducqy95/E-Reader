@@ -1,0 +1,9 @@
+﻿{
+    "source":  "69shu - repo Đường đen",
+    "version":  29,
+    "homeSuccess":  true,
+    "tabs":  7,
+    "listSuccess":  false,
+    "listed":  0,
+    "listError":  "{\"isSuccess\":false,\"errorMsg\":\"Expected list from VBook script\",\"data\":null}"
+}

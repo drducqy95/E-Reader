@@ -57,8 +57,11 @@ class MainActivity : ComponentActivity() {
                     onSettingsClick = {
                         navController.navigate("settings")
                     },
-                    onExploreBookClick = { bookUrl ->
-                        navController.navigate("book_detail/?url=${java.net.URLEncoder.encode(bookUrl, "UTF-8")}")
+                    onExploreBookClick = { sourceId, bookUrl ->
+                        navController.navigate(
+                            "book_detail?sourceId=${java.net.URLEncoder.encode(sourceId, "UTF-8")}" +
+                                "&url=${java.net.URLEncoder.encode(bookUrl, "UTF-8")}"
+                        )
                     },
                     onManageSourcesClick = {
                         navController.navigate("source_manage")
@@ -71,7 +74,15 @@ class MainActivity : ComponentActivity() {
             composable("reader/{bookId}") { backStackEntry ->
                 val bookId = backStackEntry.arguments?.getString("bookId")?.toIntOrNull() ?: return@composable
                 val readerViewModel: ReaderViewModel = viewModel(
-                    factory = ReaderViewModelFactory(application, bookId, application.bookRepository, application.settingsRepository)
+                    factory = ReaderViewModelFactory(
+                        application,
+                        bookId,
+                        application.bookRepository,
+                        application.database.readerDao(),
+                        application.settingsRepository,
+                        application.translationOrchestrator,
+                        application.onlineLibraryService
+                    )
                 )
                 ReaderScreen(
                     viewModel = readerViewModel,
@@ -81,12 +92,13 @@ class MainActivity : ComponentActivity() {
             composable("settings") {
                 SettingsScreen(onBack = { navController.popBackStack() })
             }
-            composable("book_detail/?url={url}") { backStackEntry ->
+            composable("book_detail?sourceId={sourceId}&url={url}") { backStackEntry ->
+                val sourceId = backStackEntry.arguments?.getString("sourceId") ?: ""
                 val url = backStackEntry.arguments?.getString("url") ?: ""
                 BookDetailScreen(
+                    sourceId = java.net.URLDecoder.decode(sourceId, "UTF-8"),
                     bookUrl = java.net.URLDecoder.decode(url, "UTF-8"),
                     onBack = { navController.popBackStack() },
-                    libraryViewModel = libraryViewModel,
                     onOpenReader = { bookId -> 
                         navController.navigate("reader/$bookId")
                     }
@@ -97,4 +109,3 @@ class MainActivity : ComponentActivity() {
     }
   }
 }
-

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@config "../../tailwind.config.cjs";
+
+@layer base {
+  :root {
+    /* Base Themes */
+    --theme-paper-bg: #FFF9F0;
+    --theme-paper-text: #2C2C2C;
+    --theme-sepia-bg: #F4ECD8;
+    --theme-sepia-text: #5C4A1E;
+    --theme-night-bg: #1A1A2E;
+    --theme-night-text: #C8C8D0;
+    --theme-forest-bg: #1B2A1B;
+    --theme-forest-text: #A8D5A2;
+    --theme-ocean-bg: #0A1628;
+    --theme-ocean-text: #7EB3D4;
+
+    /* Warm paper-like tones for light mode */
+    --color-light-bg: #F5ECD7;
+    --color-light-accent: #8B5E3C;
+
+    /* True dark mode with deep navy */
+    --color-dark-bg: #0D1117;
+    --color-dark-card: #1A1F2E;
+  }
+}

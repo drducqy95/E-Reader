@@ -1,0 +1,86 @@
+﻿[
+    {
+        "source":  "Truyện Full",
+        "stage":  "detail/toc",
+        "chars":  0,
+        "title":  "",
+        "note":  "detail/toc: The remote server returned an error: (400) Bad Request."
+    },
+    {
+        "source":  "quanben - repo duongden",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    },
+    {
+        "source":  "言情小说阁 (APP)",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    },
+    {
+        "source":  "Người Lao Động",
+        "stage":  "PASS",
+        "chars":  2654,
+        "title":  "Phó Cục trưởng thuộc Bộ Công Thương nói lý do không bán xăng khoáng",
+        "note":  "tabs=1, listed=40, chapters=1"
+    },
+    {
+        "source":  "vietnamnet",
+        "stage":  "PASS",
+        "chars":  2343,
+        "title":  "Tổng Bí thư, Chủ tịch nước dâng hoa tại tượng Chủ tịch Hồ Chí Minh ở Singapore",
+        "note":  "tabs=25, listed=25, chapters=1"
+    },
+    {
+        "source":  "Tuổi Trẻ",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    },
+    {
+        "source":  "vnexpress",
+        "stage":  "PASS",
+        "chars":  1956,
+        "title":  "Tàu cao tốc từ trung tâm TP HCM đi Côn Đảo vận hành trở lại",
+        "note":  "tabs=13, listed=33, chapters=1"
+    },
+    {
+        "source":  "soha",
+        "stage":  "PASS",
+        "chars":  6598,
+        "title":  "Từ hôm nay, Việt Nam bán xăng E10 trên toàn quốc, Mỹ, Trung Quốc, Thái Lan… có dùng không?",
+        "note":  "tabs=1, listed=52, chapters=1"
+    },
+    {
+        "source":  "x33xs4",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    },
+    {
+        "source":  "Tinh Linh",
+        "stage":  "detail/toc",
+        "chars":  0,
+        "title":  "",
+        "note":  "detail/toc: The remote server returned an error: (400) Bad Request."
+    },
+    {
+        "source":  "Dịch truyện tự động từ Qidian",
+        "stage":  "detail/toc",
+        "chars":  0,
+        "title":  "",
+        "note":  "detail/toc: The remote server returned an error: (400) Bad Request."
+    },
+    {
+        "source":  "ebookbao",
+        "stage":  "list",
+        "chars":  0,
+        "title":  "",
+        "note":  "list: no article/book in first 5 tabs"
+    }
+]

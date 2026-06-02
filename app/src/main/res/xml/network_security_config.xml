@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain>127.0.0.1</domain>
+        <domain>localhost</domain>
+    </domain-config>
+    <!-- Legacy VBook APP extension APIs do not expose HTTPS. Keep the exception
+         narrow instead of allowing cleartext traffic process-wide. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain>api.beiniai.com</domain>
+        <domain>api.daislou.com</domain>
+        <domain>api.basusan.com</domain>
+        <domain>api.anwaben.com</domain>
+    </domain-config>
+</network-security-config>

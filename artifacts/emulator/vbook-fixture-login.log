@@ -1,0 +1,9 @@
+VBook fixture listening at http://127.0.0.1:18080
+"GET /plugin.zip HTTP/1.1" 200 -
+"GET /search?keyword=tam%20quoc HTTP/1.1" 200 -
+"GET /book/1 HTTP/1.1" 200 -
+"GET /book/1/toc HTTP/1.1" 200 -
+"GET /plugin.zip HTTP/1.1" 200 -
+"GET /search?keyword=tam%20quoc HTTP/1.1" 200 -
+"GET /book/1 HTTP/1.1" 200 -
+"GET /book/1/toc HTTP/1.1" 200 -

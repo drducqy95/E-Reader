@@ -1,0 +1,20 @@
+﻿{
+    "sourceId":  "69shu - repo Đường đen-hajljnopera",
+    "tabs":  7,
+    "tab":  {
+                "title":  "新书榜",
+                "input":  "/novels/newhot_0_0_{0}.htm",
+                "script":  "gen.js"
+            },
+    "elapsedSeconds":  3.24,
+    "listSuccess":  true,
+    "listed":  50,
+    "first":  {
+                  "sourceId":  "69shu - repo Đường đen-hajljnopera",
+                  "name":  "美利坚，我的系统来自1885年",
+                  "author":  "",
+                  "description":  "",
+                  "cover":  "https://static.69shuba.com/files/article/image/90/90641/90641s.jpg",
+                  "url":  "https://www.69shuba.com/book/90641.htm"
+              }
+}

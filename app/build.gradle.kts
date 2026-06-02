@@ -1,10 +1,17 @@
 plugins {
   alias(libs.plugins.android.application)
+  alias(libs.plugins.kotlin.android)
   alias(libs.plugins.kotlin.compose)
   alias(libs.plugins.google.devtools.ksp)
   alias(libs.plugins.roborazzi)
   alias(libs.plugins.secrets)
 }
+
+fun productionSetting(name: String): String =
+  (project.findProperty(name) as String?) ?: System.getenv(name) ?: ""
+
+fun quotedBuildConfig(value: String): String =
+  "\"${value.replace("\\", "\\\\").replace("\"", "\\\"")}\""
 
 android {
   namespace = "com.example"
@@ -16,6 +23,11 @@ android {
     targetSdk = 36
     versionCode = 1
     versionName = "1.0"
+
+    buildConfigField("String", "PRODUCTION_GRAPH_URL", quotedBuildConfig(productionSetting("DRDUC_GRAPH_URL")))
+    buildConfigField("String", "PRODUCTION_GRAPH_SHA256", quotedBuildConfig(productionSetting("DRDUC_GRAPH_SHA256")))
+    buildConfigField("String", "PRODUCTION_ONLINE_URL", quotedBuildConfig(productionSetting("DRDUC_ONLINE_URL")))
+    buildConfigField("String", "PRODUCTION_ONLINE_MODEL", quotedBuildConfig(productionSetting("DRDUC_ONLINE_MODEL")))
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
@@ -48,8 +60,8 @@ android {
     }
   }
   compileOptions {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
   }
   buildFeatures {
     compose = true
@@ -90,7 +102,7 @@ dependencies {
   implementation(libs.androidx.navigation.compose)
   implementation(libs.androidx.room.ktx)
   implementation(libs.androidx.room.runtime)
-  // implementation(libs.coil.compose)
+  implementation(libs.coil.compose)
   implementation(libs.converter.moshi)
   // implementation(libs.firebase.ai)
   implementation(libs.kotlinx.coroutines.android)
@@ -98,8 +110,12 @@ dependencies {
   implementation(libs.logging.interceptor)
   implementation(libs.moshi.kotlin)
   implementation(libs.okhttp)
-  implementation(libs.rhino)
   implementation(libs.jsoup)
+  implementation(libs.androidx.work.runtime.ktx)
+  implementation(project(":modules:rhino"))
+  implementation(project(":modules:drduc-engine"))
+  implementation(project(":modules:legado-core"))
+  implementation(project(":modules:web-service"))
   // implementation(libs.play.services.location)
   implementation(libs.retrofit)
   testImplementation(libs.androidx.compose.ui.test.junit4)

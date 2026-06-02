@@ -1,0 +1,552 @@
+﻿--------- beginning of main
+06-01 06:53:32.598  5362  5362 I io.ereader.xynk: Late-enabling -Xcheck:jni
+06-01 06:53:32.660  5362  5362 I io.ereader.xynk: Using CollectorTypeCMC GC.
+06-01 06:53:32.661  5362  5362 W io.ereader.xynk: Unexpected CPU variant for x86: x86_64.
+06-01 06:53:32.661  5362  5362 W io.ereader.xynk: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+06-01 06:53:32.675  5362  5362 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-01 06:53:33.628  5362  5362 D nativeloader: Configuring clns-9 for other apk /data/app/~~zwG6k-laFraqPPPkKlR1GQ==/com.aistudio.ereader.xynk-vhfoxtzZHQAI14wUNmyqlw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~zwG6k-laFraqPPPkKlR1GQ==/com.aistudio.ereader.xynk-vhfoxtzZHQAI14wUNmyqlw==/lib/x86_64:/data/app/~~zwG6k-laFraqPPPkKlR1GQ==/com.aistudio.ereader.xynk-vhfoxtzZHQAI14wUNmyqlw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.aistudio.ereader.xynk
+06-01 06:53:33.640  5362  5362 I io.ereader.xynk: AssetManager2(0x7b2c763b4998) locale list changing from [] to [en-US]
+06-01 06:53:33.653  5362  5362 V GraphicsEnvironment: Currently set values for:
+06-01 06:53:33.653  5362  5362 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-01 06:53:33.654  5362  5362 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-01 06:53:33.654  5362  5362 V GraphicsEnvironment: com.aistudio.ereader.xynk is not listed in per-application setting
+06-01 06:53:33.654  5362  5362 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+06-01 06:53:33.654  5362  5362 V GraphicsEnvironment: com.aistudio.ereader.xynk is not listed in ANGLE allowlist or settings, returning default
+06-01 06:53:33.654  5362  5362 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-01 06:53:33.699  5362  5362 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+06-01 06:53:34.023  5362  5362 D WM-PackageManagerHelper: androidx.work.impl.background.systemjob.SystemJobService enabled
+06-01 06:53:34.023  5362  5362 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+06-01 06:53:34.146  5362  5383 D WM-ForceStopRunnable: The default process name was not specified.
+06-01 06:53:34.151  5362  5383 D WM-ForceStopRunnable: Performing cleanup operations.
+06-01 06:53:34.176  5362  5383 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+--------- beginning of system
+06-01 06:53:34.274  5362  5385 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+06-01 06:53:34.291  5362  5362 I io.ereader.xynk: AssetManager2(0x7b2c763b9df8) locale list changing from [] to [en-US]
+06-01 06:53:34.348  5362  5385 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-01 06:53:34.350  5362  5385 I EGL_emulation: Opening libGLESv2_emulation.so
+06-01 06:53:34.358  5362  5385 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-01 06:53:34.371  5362  5362 D CompatChangeReporter: Compat change id reported: 377864165; UID 10225; state: ENABLED
+06-01 06:53:34.373  5362  5362 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+06-01 06:53:34.394  5362  5388 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+06-01 06:53:34.487  5362  5362 W HWUI    : Unknown dataspace 0
+06-01 06:53:35.553  5362  5368 I io.ereader.xynk: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+06-01 06:53:36.792  5362  5392 I HWUI    : Davey! duration=2250ms; Flags=1, FrameTimelineVsyncId=17963, IntendedVsync=1437641856380, Vsync=1437641856380, InputEventId=0, HandleInputStart=1437648064900, AnimationStart=1437648108000, PerformTraversalsStart=1437648156200, DrawStart=1439471412300, FrameDeadline=1437658523046, FrameStartTime=1437648013000, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=1439507143000, SyncStart=1439507956100, IssueDrawCommandsStart=1439508324200, SwapBuffers=1439773133500, FrameCompleted=1439893094600, DequeueBufferDuration=28300, QueueBufferDuration=736200, GpuCompleted=1439892936400, SwapBuffersCompleted=1439893094600, DisplayPresentTime=0, CommandSubmissionCompleted=1439773133500, 
+06-01 06:53:36.881  5362  5362 I Choreographer: Skipped 136 frames!  The application may be doing too much work on its main thread.
+06-01 06:53:37.066  5362  5392 I HWUI    : Davey! duration=2410ms; Flags=0, FrameTimelineVsyncId=17985, IntendedVsync=1437741856376, Vsync=1440008522952, InputEventId=0, HandleInputStart=1440020515200, AnimationStart=1440020552800, PerformTraversalsStart=1440082365300, DrawStart=1440085782400, FrameDeadline=1439925189622, FrameStartTime=1440017042200, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=1440087697500, SyncStart=1440103267000, IssueDrawCommandsStart=1440103508500, SwapBuffers=1440106308500, FrameCompleted=1440167940800, DequeueBufferDuration=31700, QueueBufferDuration=1283400, GpuCompleted=1440167650300, SwapBuffersCompleted=1440167940800, DisplayPresentTime=0, CommandSubmissionCompleted=1440106308500, 
+06-01 06:53:37.486  5362  5362 D InsetsController: hide(ime(), fromIme=false)
+06-01 06:53:37.486  5362  5362 I ImeTracker: com.aistudio.ereader.xynk:b278d640: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+06-01 06:53:39.469  5362  5405 D ProfileInstaller: Installing profile for com.aistudio.ereader.xynk
+06-01 06:53:44.681  5362  5383 W JobInfo : Requested important-while-foreground flag for job0 is ignored and takes no effect
+06-01 06:53:44.682  5362  5383 D WM-SystemJobScheduler: Scheduling work ID 93ca3bd6-9e8e-4fad-8a06-88e5654a29fcJob ID 0
+06-01 06:53:44.695  5362  5383 D WM-GreedyScheduler: Starting work for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc
+06-01 06:53:44.704  5362  5362 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, generation=0)
+06-01 06:53:44.713  5362  5383 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, generation=0)
+06-01 06:53:44.719  5362  5383 D WM-Processor: Work WorkGenerationalId(workSpecId=93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, generation=0) is already enqueued for processing
+06-01 06:53:44.789  5362  5383 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver enabled
+06-01 06:53:44.797  5362  5362 D WM-WorkerWrapper: Starting work for com.example.data.GraphDownloadWorker
+06-01 06:53:44.810  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:44.825  5362  5362 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+06-01 06:53:44.828  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:44.833  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:44.915  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 8192, totalBytes : 343662592})
+06-01 06:53:44.930  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:44.933  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.022  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 2105344, totalBytes : 343662592})
+06-01 06:53:45.026  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.029  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.110  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 4202496, totalBytes : 343662592})
+06-01 06:53:45.115  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.118  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.207  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 6299648, totalBytes : 343662592})
+06-01 06:53:45.212  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.219  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.293  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 8396800, totalBytes : 343662592})
+06-01 06:53:45.299  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.301  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.380  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 10493952, totalBytes : 343662592})
+06-01 06:53:45.385  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.387  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.457  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 12591104, totalBytes : 343662592})
+06-01 06:53:45.462  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.464  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.538  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 14688256, totalBytes : 343662592})
+06-01 06:53:45.543  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.545  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.632  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 16785408, totalBytes : 343662592})
+06-01 06:53:45.637  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.641  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.725  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 18882560, totalBytes : 343662592})
+06-01 06:53:45.730  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.734  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:45.821  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 20979712, totalBytes : 343662592})
+06-01 06:53:45.834  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:45.877  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.032  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 23076864, totalBytes : 343662592})
+06-01 06:53:46.048  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.058  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.176  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 25174016, totalBytes : 343662592})
+06-01 06:53:46.181  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.183  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.295  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 27271168, totalBytes : 343662592})
+06-01 06:53:46.299  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.301  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.383  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 29368320, totalBytes : 343662592})
+06-01 06:53:46.389  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.391  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.469  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 31465472, totalBytes : 343662592})
+06-01 06:53:46.473  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.475  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.555  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 33562624, totalBytes : 343662592})
+06-01 06:53:46.559  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.562  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.642  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 35659776, totalBytes : 343662592})
+06-01 06:53:46.647  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.649  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.736  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 37756928, totalBytes : 343662592})
+06-01 06:53:46.740  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.742  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.829  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 39854080, totalBytes : 343662592})
+06-01 06:53:46.834  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.838  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:46.923  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 41951232, totalBytes : 343662592})
+06-01 06:53:46.927  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:46.929  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.002  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 44048384, totalBytes : 343662592})
+06-01 06:53:47.008  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.011  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.094  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 46145536, totalBytes : 343662592})
+06-01 06:53:47.099  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.103  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.180  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 48242688, totalBytes : 343662592})
+06-01 06:53:47.185  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.187  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.256  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 50339840, totalBytes : 343662592})
+06-01 06:53:47.261  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.263  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.351  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 52436992, totalBytes : 343662592})
+06-01 06:53:47.355  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.357  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.438  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 54534144, totalBytes : 343662592})
+06-01 06:53:47.456  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.459  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.536  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 56631296, totalBytes : 343662592})
+06-01 06:53:47.541  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.544  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.619  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 58728448, totalBytes : 343662592})
+06-01 06:53:47.624  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.626  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.704  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 60825600, totalBytes : 343662592})
+06-01 06:53:47.712  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.714  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.797  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 62922752, totalBytes : 343662592})
+06-01 06:53:47.803  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.805  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.895  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 65019904, totalBytes : 343662592})
+06-01 06:53:47.901  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.903  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:47.990  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 67117056, totalBytes : 343662592})
+06-01 06:53:47.995  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:47.998  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.079  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 69214208, totalBytes : 343662592})
+06-01 06:53:48.086  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.088  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.178  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 71311360, totalBytes : 343662592})
+06-01 06:53:48.184  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.186  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.268  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 73408512, totalBytes : 343662592})
+06-01 06:53:48.273  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.276  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.364  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 75505664, totalBytes : 343662592})
+06-01 06:53:48.368  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.371  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.462  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 77602816, totalBytes : 343662592})
+06-01 06:53:48.468  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.472  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.554  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 79699968, totalBytes : 343662592})
+06-01 06:53:48.562  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.566  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.649  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 81797120, totalBytes : 343662592})
+06-01 06:53:48.654  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.657  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.747  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 83894272, totalBytes : 343662592})
+06-01 06:53:48.754  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.756  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.841  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 85991424, totalBytes : 343662592})
+06-01 06:53:48.846  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.849  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:48.931  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 88088576, totalBytes : 343662592})
+06-01 06:53:48.935  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:48.937  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.014  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 90185728, totalBytes : 343662592})
+06-01 06:53:49.018  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.022  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.103  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 92282880, totalBytes : 343662592})
+06-01 06:53:49.107  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.109  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.191  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 94380032, totalBytes : 343662592})
+06-01 06:53:49.195  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.197  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.268  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 96477184, totalBytes : 343662592})
+06-01 06:53:49.273  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.275  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.340  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 98574336, totalBytes : 343662592})
+06-01 06:53:49.344  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.348  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.421  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 100671488, totalBytes : 343662592})
+06-01 06:53:49.428  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.431  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.498  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 102768640, totalBytes : 343662592})
+06-01 06:53:49.504  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.506  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.574  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 104865792, totalBytes : 343662592})
+06-01 06:53:49.582  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.584  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.658  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 106962944, totalBytes : 343662592})
+06-01 06:53:49.662  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.665  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.737  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 109060096, totalBytes : 343662592})
+06-01 06:53:49.741  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.745  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.817  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 111157248, totalBytes : 343662592})
+06-01 06:53:49.822  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.824  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.896  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 113254400, totalBytes : 343662592})
+06-01 06:53:49.901  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.903  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:49.981  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 115351552, totalBytes : 343662592})
+06-01 06:53:49.988  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:49.990  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.065  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 117448704, totalBytes : 343662592})
+06-01 06:53:50.070  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.072  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.142  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 119545856, totalBytes : 343662592})
+06-01 06:53:50.148  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.151  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.222  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 121643008, totalBytes : 343662592})
+06-01 06:53:50.226  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.229  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.308  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 123740160, totalBytes : 343662592})
+06-01 06:53:50.313  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.315  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.389  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 125837312, totalBytes : 343662592})
+06-01 06:53:50.394  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.396  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.474  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 127934464, totalBytes : 343662592})
+06-01 06:53:50.480  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.482  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.562  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 130031616, totalBytes : 343662592})
+06-01 06:53:50.567  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.569  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.632  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 132128768, totalBytes : 343662592})
+06-01 06:53:50.639  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.641  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.716  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 134225920, totalBytes : 343662592})
+06-01 06:53:50.721  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.723  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.804  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 136323072, totalBytes : 343662592})
+06-01 06:53:50.812  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.814  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.891  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 138420224, totalBytes : 343662592})
+06-01 06:53:50.896  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:50.900  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:50.994  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 140517376, totalBytes : 343662592})
+06-01 06:53:50.999  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.001  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.073  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 142614528, totalBytes : 343662592})
+06-01 06:53:51.077  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.079  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.147  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 144711680, totalBytes : 343662592})
+06-01 06:53:51.152  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.155  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.233  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 146808832, totalBytes : 343662592})
+06-01 06:53:51.240  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.243  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.316  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 148905984, totalBytes : 343662592})
+06-01 06:53:51.323  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.325  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.391  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 151003136, totalBytes : 343662592})
+06-01 06:53:51.397  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.399  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.467  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 153100288, totalBytes : 343662592})
+06-01 06:53:51.472  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.474  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.542  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 155197440, totalBytes : 343662592})
+06-01 06:53:51.546  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.550  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.652  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 157294592, totalBytes : 343662592})
+06-01 06:53:51.657  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.659  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.760  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 159391744, totalBytes : 343662592})
+06-01 06:53:51.769  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.771  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.865  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 161488896, totalBytes : 343662592})
+06-01 06:53:51.873  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.875  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:51.971  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 163586048, totalBytes : 343662592})
+06-01 06:53:51.975  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:51.978  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.050  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 165683200, totalBytes : 343662592})
+06-01 06:53:52.054  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.057  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.119  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 167780352, totalBytes : 343662592})
+06-01 06:53:52.125  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.129  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.198  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 169877504, totalBytes : 343662592})
+06-01 06:53:52.207  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.210  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.284  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 171974656, totalBytes : 343662592})
+06-01 06:53:52.288  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.290  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.364  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 174071808, totalBytes : 343662592})
+06-01 06:53:52.369  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.372  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.437  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 176168960, totalBytes : 343662592})
+06-01 06:53:52.442  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.444  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.517  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 178266112, totalBytes : 343662592})
+06-01 06:53:52.526  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.529  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.608  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 180363264, totalBytes : 343662592})
+06-01 06:53:52.614  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.616  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.688  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 182460416, totalBytes : 343662592})
+06-01 06:53:52.692  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.695  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.770  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 184557568, totalBytes : 343662592})
+06-01 06:53:52.775  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.778  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.853  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 186654720, totalBytes : 343662592})
+06-01 06:53:52.860  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.862  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:52.936  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 188751872, totalBytes : 343662592})
+06-01 06:53:52.941  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:52.944  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.014  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 190849024, totalBytes : 343662592})
+06-01 06:53:53.018  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.020  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.092  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 192946176, totalBytes : 343662592})
+06-01 06:53:53.096  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.099  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.172  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 195043328, totalBytes : 343662592})
+06-01 06:53:53.179  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.182  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.260  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 197140480, totalBytes : 343662592})
+06-01 06:53:53.265  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.267  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.342  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 199237632, totalBytes : 343662592})
+06-01 06:53:53.347  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.350  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.424  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 201334784, totalBytes : 343662592})
+06-01 06:53:53.429  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.431  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.505  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 203431936, totalBytes : 343662592})
+06-01 06:53:53.510  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.512  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.605  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 205529088, totalBytes : 343662592})
+06-01 06:53:53.612  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.616  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.699  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 207626240, totalBytes : 343662592})
+06-01 06:53:53.704  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.706  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.783  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 209723392, totalBytes : 343662592})
+06-01 06:53:53.787  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.789  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.868  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 211820544, totalBytes : 343662592})
+06-01 06:53:53.877  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.880  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:53.946  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 213917696, totalBytes : 343662592})
+06-01 06:53:53.952  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:53.954  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.032  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 216014848, totalBytes : 343662592})
+06-01 06:53:54.036  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.038  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.109  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 218112000, totalBytes : 343662592})
+06-01 06:53:54.113  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.115  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.187  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 220209152, totalBytes : 343662592})
+06-01 06:53:54.192  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.194  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.275  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 222306304, totalBytes : 343662592})
+06-01 06:53:54.280  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.282  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.352  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 224403456, totalBytes : 343662592})
+06-01 06:53:54.358  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.360  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.427  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 226500608, totalBytes : 343662592})
+06-01 06:53:54.433  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.437  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.508  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 228597760, totalBytes : 343662592})
+06-01 06:53:54.518  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.520  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.603  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 230694912, totalBytes : 343662592})
+06-01 06:53:54.609  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.612  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.679  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 232792064, totalBytes : 343662592})
+06-01 06:53:54.685  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.687  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.764  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 234889216, totalBytes : 343662592})
+06-01 06:53:54.768  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.770  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.834  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 236986368, totalBytes : 343662592})
+06-01 06:53:54.838  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.840  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:54.916  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 239083520, totalBytes : 343662592})
+06-01 06:53:54.922  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:54.925  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.041  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 241180672, totalBytes : 343662592})
+06-01 06:53:55.054  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.058  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.163  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 243277824, totalBytes : 343662592})
+06-01 06:53:55.176  5362  5383 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.180  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.282  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 245374976, totalBytes : 343662592})
+06-01 06:53:55.291  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.297  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.405  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 247472128, totalBytes : 343662592})
+06-01 06:53:55.411  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.413  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.491  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 249569280, totalBytes : 343662592})
+06-01 06:53:55.496  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.499  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.572  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 251666432, totalBytes : 343662592})
+06-01 06:53:55.579  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.581  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.652  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 253763584, totalBytes : 343662592})
+06-01 06:53:55.660  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.662  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.734  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 255860736, totalBytes : 343662592})
+06-01 06:53:55.740  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.742  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.814  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 257957888, totalBytes : 343662592})
+06-01 06:53:55.818  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.820  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.887  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 260055040, totalBytes : 343662592})
+06-01 06:53:55.892  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.894  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:55.971  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 262152192, totalBytes : 343662592})
+06-01 06:53:55.975  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:55.977  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.046  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 264249344, totalBytes : 343662592})
+06-01 06:53:56.054  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.056  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.124  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 266346496, totalBytes : 343662592})
+06-01 06:53:56.130  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.132  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.207  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 268443648, totalBytes : 343662592})
+06-01 06:53:56.211  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.213  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.286  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 270540800, totalBytes : 343662592})
+06-01 06:53:56.289  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.292  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.369  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 272637952, totalBytes : 343662592})
+06-01 06:53:56.375  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.390  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.462  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 274735104, totalBytes : 343662592})
+06-01 06:53:56.469  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.472  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.551  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 276832256, totalBytes : 343662592})
+06-01 06:53:56.556  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.558  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.631  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 278929408, totalBytes : 343662592})
+06-01 06:53:56.636  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.639  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.713  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 281026560, totalBytes : 343662592})
+06-01 06:53:56.718  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.721  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.789  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 283123712, totalBytes : 343662592})
+06-01 06:53:56.794  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.797  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.868  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 285220864, totalBytes : 343662592})
+06-01 06:53:56.872  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.875  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:56.943  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 287318016, totalBytes : 343662592})
+06-01 06:53:56.948  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:56.950  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.021  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 289415168, totalBytes : 343662592})
+06-01 06:53:57.025  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.027  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.097  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 291512320, totalBytes : 343662592})
+06-01 06:53:57.101  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.104  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.170  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 293609472, totalBytes : 343662592})
+06-01 06:53:57.174  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.177  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.245  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 295706624, totalBytes : 343662592})
+06-01 06:53:57.251  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.253  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.326  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 297803776, totalBytes : 343662592})
+06-01 06:53:57.332  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.335  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.407  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 299900928, totalBytes : 343662592})
+06-01 06:53:57.412  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.415  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.479  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 301998080, totalBytes : 343662592})
+06-01 06:53:57.485  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.487  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.570  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 304095232, totalBytes : 343662592})
+06-01 06:53:57.575  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.578  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.662  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 306192384, totalBytes : 343662592})
+06-01 06:53:57.668  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.671  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.758  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 308289536, totalBytes : 343662592})
+06-01 06:53:57.764  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.766  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.850  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 310386688, totalBytes : 343662592})
+06-01 06:53:57.854  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.859  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:57.930  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 312483840, totalBytes : 343662592})
+06-01 06:53:57.936  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:57.939  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.014  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 314580992, totalBytes : 343662592})
+06-01 06:53:58.020  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.023  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.090  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 316678144, totalBytes : 343662592})
+06-01 06:53:58.097  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.100  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.163  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 318775296, totalBytes : 343662592})
+06-01 06:53:58.170  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.173  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.242  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 320872448, totalBytes : 343662592})
+06-01 06:53:58.248  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.250  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.322  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 322969600, totalBytes : 343662592})
+06-01 06:53:58.328  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.330  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.397  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 325066752, totalBytes : 343662592})
+06-01 06:53:58.404  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.406  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.473  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 327163904, totalBytes : 343662592})
+06-01 06:53:58.477  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.479  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.549  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 329261056, totalBytes : 343662592})
+06-01 06:53:58.553  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.555  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.617  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 331358208, totalBytes : 343662592})
+06-01 06:53:58.623  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.625  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.682  5362  5387 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 333455360, totalBytes : 343662592})
+06-01 06:53:58.688  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.690  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.758  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 335552512, totalBytes : 343662592})
+06-01 06:53:58.764  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.768  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.838  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 337649664, totalBytes : 343662592})
+06-01 06:53:58.843  5362  5388 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.846  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:58.926  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 339746816, totalBytes : 343662592})
+06-01 06:53:58.931  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:58.936  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:59.003  5362  5383 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 341843968, totalBytes : 343662592})
+06-01 06:53:59.008  5362  5387 I WM-Processor: Moving WorkSpec (93ca3bd6-9e8e-4fad-8a06-88e5654a29fc) to the foreground
+06-01 06:53:59.012  5362  5362 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, notificationType :1)
+06-01 06:53:59.061  5362  5388 D WM-WorkProgressUpdater: Updating progress for 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc (Data {downloadedBytes : 343662592, totalBytes : 343662592})
+06-01 06:54:00.958  5362  5387 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, tags={ com.example.data.GraphDownloadWorker } ]
+06-01 06:54:00.963  5362  5362 D WM-Processor: Processor 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc executed; reschedule = false
+06-01 06:54:00.963  5362  5362 D WM-SystemJobService: 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc executed on JobScheduler
+06-01 06:54:00.963  5362  5362 D WM-SystemFgDispatcher: Removing Notification (id: 1123, workSpecId: WorkGenerationalId(workSpecId=93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, generation=0), notificationType: 1
+06-01 06:54:00.965  5362  5362 I WM-SystemFgDispatcher: Stopping foreground service
+06-01 06:54:00.965  5362  5362 D WM-SystemFgService: Shutting down.
+06-01 06:54:00.965  5362  5387 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver disabled
+06-01 06:54:00.972  5362  5387 D WM-GreedyScheduler: Cancelling work ID 93ca3bd6-9e8e-4fad-8a06-88e5654a29fc
+06-01 06:54:00.973  5362  5362 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=93ca3bd6-9e8e-4fad-8a06-88e5654a29fc, generation=0)

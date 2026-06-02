@@ -1,0 +1,1 @@
+function execute(url){return Response.success(fetch(url).text());}

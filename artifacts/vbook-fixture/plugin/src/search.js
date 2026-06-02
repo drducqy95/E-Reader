@@ -1,0 +1,1 @@
+function execute(key,page){return Response.success(fetch('http://127.0.0.1:18080/search?keyword='+encodeURIComponent(key)).json());}

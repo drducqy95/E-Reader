@@ -1,0 +1,29 @@
+﻿{
+    "checkedAt":  "2026-06-02T06:36:37.1462182+07:00",
+    "currentPlugin":  {
+                          "url":  "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/69shu/plugin.zip",
+                          "sha256":  "54C1D648EA6BB29712DD6F96811E7F1D367E0DBF11B8A29D74FAD1D572DA8273",
+                          "bytes":  81277,
+                          "name":  "69shu - repo Đường đen",
+                          "version":  38,
+                          "encrypted":  true,
+                          "source":  "https://www.69shuba.com"
+                      },
+    "publicLegacyPlugin":  {
+                               "url":  "https://raw.githubusercontent.com/duongden/vbook/1c61192d52187b760d615a96a8001077e492c83a/FixedDomain/69shu/plugin.zip",
+                               "sha256":  "B383F724DAB54BAB249F558ED46BAC82EF042DF3B8CAA2680DE0347F0E17CD31",
+                               "bytes":  32863,
+                               "name":  "69shu - repo Đường đen",
+                               "version":  29,
+                               "encrypted":  false,
+                               "source":  "https://www.69shuba.com"
+                           },
+    "hostProbe":  {
+                      "url":  "https://www.69shuba.com",
+                      "status":  403,
+                      "server":  "cloudflare",
+                      "chars":  0,
+                      "error":  "The remote server returned an error: (403) Forbidden."
+                  },
+    "conclusion":  "Current 69shuba extension is encrypted and requires a VBook-compatible decoder. The public legacy plugin can be inspected, but direct HTTP crawling is blocked when the host probe returns 403."
+}

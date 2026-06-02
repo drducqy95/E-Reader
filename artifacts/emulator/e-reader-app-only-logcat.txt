@@ -1,0 +1,48 @@
+﻿--------- beginning of main
+06-01 04:52:38.373  6467  6467 I io.ereader.xynk: Late-enabling -Xcheck:jni
+06-01 04:52:38.451  6467  6467 I io.ereader.xynk: Using CollectorTypeCMC GC.
+06-01 04:52:38.452  6467  6467 W io.ereader.xynk: Unexpected CPU variant for x86: x86_64.
+06-01 04:52:38.452  6467  6467 W io.ereader.xynk: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+06-01 04:52:38.638  6467  6467 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-01 04:52:40.170  6467  6467 D nativeloader: Configuring clns-9 for other apk /data/app/~~qaXUgh8kbjoLQgtaBIstJA==/com.aistudio.ereader.xynk-n6CDcnGOkcJgpskc9f9D8A==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~qaXUgh8kbjoLQgtaBIstJA==/com.aistudio.ereader.xynk-n6CDcnGOkcJgpskc9f9D8A==/lib/x86_64:/data/app/~~qaXUgh8kbjoLQgtaBIstJA==/com.aistudio.ereader.xynk-n6CDcnGOkcJgpskc9f9D8A==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.aistudio.ereader.xynk
+06-01 04:52:40.180  6467  6467 I io.ereader.xynk: AssetManager2(0x7258bced6a78) locale list changing from [] to [en-US]
+06-01 04:52:40.205  6467  6467 V GraphicsEnvironment: Currently set values for:
+06-01 04:52:40.205  6467  6467 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-01 04:52:40.205  6467  6467 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-01 04:52:40.205  6467  6467 V GraphicsEnvironment: com.aistudio.ereader.xynk is not listed in per-application setting
+06-01 04:52:40.206  6467  6467 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+06-01 04:52:40.206  6467  6467 V GraphicsEnvironment: com.aistudio.ereader.xynk is not listed in ANGLE allowlist or settings, returning default
+06-01 04:52:40.206  6467  6467 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-01 04:52:40.393  6467  6467 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+06-01 04:52:41.004  6467  6467 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+06-01 04:52:41.004  6467  6467 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+06-01 04:52:41.281  6467  6489 D WM-ForceStopRunnable: The default process name was not specified.
+06-01 04:52:41.282  6467  6489 D WM-ForceStopRunnable: Performing cleanup operations.
+06-01 04:52:41.381  6467  6489 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+--------- beginning of system
+06-01 04:52:41.463  6467  6490 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+06-01 04:52:41.481  6467  6467 I io.ereader.xynk: AssetManager2(0x7258bced6118) locale list changing from [] to [en-US]
+06-01 04:52:41.537  6467  6490 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-01 04:52:41.537  6467  6490 I EGL_emulation: Opening libGLESv2_emulation.so
+06-01 04:52:41.546  6467  6490 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-01 04:52:41.546  6467  6490 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-01 04:52:41.685  6467  6489 D WM-ForceStopRunnable: Application was force-stopped, rescheduling.
+06-01 04:52:41.700  6467  6467 D CompatChangeReporter: Compat change id reported: 377864165; UID 10219; state: ENABLED
+06-01 04:52:41.704  6467  6467 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+06-01 04:52:42.005  6467  6498 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+06-01 04:52:42.078  6467  6467 W HWUI    : Unknown dataspace 0
+06-01 04:52:45.972  6467  6479 I HWUI    : Davey! duration=3814ms; Flags=1, FrameTimelineVsyncId=14309, IntendedVsync=401187402594, Vsync=401220735926, InputEventId=0, HandleInputStart=401234801000, AnimationStart=401234835700, PerformTraversalsStart=401234889600, DrawStart=404733064200, FrameDeadline=401204069260, FrameStartTime=401234744600, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=404811396000, SyncStart=404814816500, IssueDrawCommandsStart=404815144400, SwapBuffers=404945295900, FrameCompleted=405004876800, DequeueBufferDuration=45400, QueueBufferDuration=370000, GpuCompleted=405004876800, SwapBuffersCompleted=404950490500, DisplayPresentTime=0, CommandSubmissionCompleted=404945295900, 
+06-01 04:52:45.999  6467  6467 I Choreographer: Skipped 218 frames!  The application may be doing too much work on its main thread.
+06-01 04:52:46.045  6467  6467 D ActivityThread: Package [com.google.android.apps.docs] reported as REPLACED, but missing application info. Assuming REMOVED.
+06-01 04:52:46.048  6467  6467 D ActivityThread: Package [com.google.android.apps.docs] reported as REPLACED, but missing application info. Assuming REMOVED.
+06-01 04:52:46.118  6467  6478 I HWUI    : Davey! duration=3721ms; Flags=0, FrameTimelineVsyncId=14355, IntendedVsync=401437402584, Vsync=405070735772, InputEventId=0, HandleInputStart=405074480500, AnimationStart=405074515900, PerformTraversalsStart=405104432200, DrawStart=405107339300, FrameDeadline=405037402440, FrameStartTime=405072127200, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=405108864200, SyncStart=405113558400, IssueDrawCommandsStart=405114008900, SwapBuffers=405115306100, FrameCompleted=405163662500, DequeueBufferDuration=35700, QueueBufferDuration=11476300, GpuCompleted=405158256700, SwapBuffersCompleted=405163662500, DisplayPresentTime=0, CommandSubmissionCompleted=405115306100, 
+06-01 04:52:46.173  6467  6467 D InsetsController: hide(ime(), fromIme=false)
+06-01 04:52:46.173  6467  6467 I ImeTracker: com.aistudio.ereader.xynk:6f581fcb: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+06-01 04:52:46.766  6467  6614 D ProfileInstaller: Installing profile for com.aistudio.ereader.xynk
+06-01 04:52:48.013  6467  6472 I io.ereader.xynk: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+06-01 04:52:53.590  6467  6467 E io.ereader.xynk: hiddenapi: Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;->getSelection()Landroid/view/accessibility/AccessibilityNodeInfo$Selection; (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~qaXUgh8kbjoLQgtaBIstJA==/com.aistudio.ereader.xynk-n6CDcnGOkcJgpskc9f9D8A==/base.apk!classes14.dex (domain=app) using linking: denied
+06-01 04:52:53.598  6467  6467 E io.ereader.xynk: hiddenapi: Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;->setSelection(Landroid/view/accessibility/AccessibilityNodeInfo$Selection;)V (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~qaXUgh8kbjoLQgtaBIstJA==/com.aistudio.ereader.xynk-n6CDcnGOkcJgpskc9f9D8A==/base.apk!classes14.dex (domain=app) using linking: denied
+06-01 04:52:53.598  6467  6467 E io.ereader.xynk: hiddenapi: Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;->setSelection(Landroid/view/accessibility/AccessibilityNodeInfo$Selection;)V (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~qaXUgh8kbjoLQgtaBIstJA==/com.aistudio.ereader.xynk-n6CDcnGOkcJgpskc9f9D8A==/base.apk!classes14.dex (domain=app) using linking: denied
+06-01 04:52:53.754  6467  6473 I io.ereader.xynk: Background concurrent mark compact GC freed 3946KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 5028KB/10056KB, paused 3.527ms,3.614ms total 158.746ms
+06-01 04:53:03.129  6467  6467 I Choreographer: Skipped 51 frames!  The application may be doing too much work on its main thread.
+06-01 04:53:03.238  6467  6505 I HWUI    : Davey! duration=958ms; Flags=0, FrameTimelineVsyncId=14995, IntendedVsync=421337401788, Vsync=422187401754, InputEventId=0, HandleInputStart=422204022800, AnimationStart=422204052300, PerformTraversalsStart=422226996000, DrawStart=422238579000, FrameDeadline=422270735084, FrameStartTime=422202172700, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=422241532000, SyncStart=422246762900, IssueDrawCommandsStart=422246965500, SwapBuffers=422285751500, FrameCompleted=422301418300, DequeueBufferDuration=33800, QueueBufferDuration=831900, GpuCompleted=422301418300, SwapBuffersCompleted=422289719700, DisplayPresentTime=0, CommandSubmissionCompleted=422285751500, 

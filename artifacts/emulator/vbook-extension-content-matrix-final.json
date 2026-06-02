@@ -1,0 +1,100 @@
+﻿{
+    "repository":  "https://raw.githubusercontent.com/duongden/vbook/main/plugin.json",
+    "baseUrl":  "http://127.0.0.1:1122",
+    "installed":  12,
+    "passed":  8,
+    "failed":  4,
+    "requiredSourcePatterns":  [
+                                   "*Full",
+                                   "Tinh Linh",
+                                   "*Qidian",
+                                   "vnexpress"
+                               ],
+    "requiredPassed":  true,
+    "rows":  [
+                 {
+                     "source":  "Truyện Full",
+                     "stage":  "PASS",
+                     "chars":  16428,
+                     "title":  "Đại Sư Tỷ Cá Mặn, Nhưng Bị Ép Vô Địch",
+                     "note":  "tabs=15, listed=27, chapters=380"
+                 },
+                 {
+                     "source":  "quanben - repo duongden",
+                     "stage":  "list",
+                     "chars":  0,
+                     "title":  "",
+                     "note":  "list: no article/book in first 5 tabs: The remote server returned an error: (400) Bad Request."
+                 },
+                 {
+                     "source":  "言情小说阁 (APP)",
+                     "stage":  "detail/toc",
+                     "chars":  0,
+                     "title":  "",
+                     "note":  "detail/toc: The remote server returned an error: (400) Bad Request."
+                 },
+                 {
+                     "source":  "Người Lao Động",
+                     "stage":  "PASS",
+                     "chars":  2654,
+                     "title":  "Phó Cục trưởng thuộc Bộ Công Thương nói lý do không bán xăng khoáng",
+                     "note":  "tabs=1, listed=40, chapters=1"
+                 },
+                 {
+                     "source":  "vietnamnet",
+                     "stage":  "PASS",
+                     "chars":  2343,
+                     "title":  "Tổng Bí thư, Chủ tịch nước dâng hoa tại tượng Chủ tịch Hồ Chí Minh ở Singapore",
+                     "note":  "tabs=25, listed=25, chapters=1"
+                 },
+                 {
+                     "source":  "Tuổi Trẻ",
+                     "stage":  "PASS",
+                     "chars":  3037,
+                     "title":  "Sơn Tùng lên tiếng giữa tranh cãi MV Come my way",
+                     "note":  "tabs=1, listed=21, chapters=1"
+                 },
+                 {
+                     "source":  "vnexpress",
+                     "stage":  "PASS",
+                     "chars":  1083,
+                     "title":  "Cứu hai thiếu niên kẹt ở tầng ba nhà cháy",
+                     "note":  "tabs=13, listed=33, chapters=1"
+                 },
+                 {
+                     "source":  "soha",
+                     "stage":  "PASS",
+                     "chars":  6598,
+                     "title":  "Từ hôm nay, Việt Nam bán xăng E10 trên toàn quốc, Mỹ, Trung Quốc, Thái Lan… có dùng không?",
+                     "note":  "tabs=1, listed=52, chapters=1"
+                 },
+                 {
+                     "source":  "x33xs4",
+                     "stage":  "list",
+                     "chars":  0,
+                     "title":  "",
+                     "note":  "list: no article/book in first 5 tabs: The remote server returned an error: (400) Bad Request."
+                 },
+                 {
+                     "source":  "Tinh Linh",
+                     "stage":  "PASS",
+                     "chars":  3053,
+                     "title":  "Cố Tổng Lại Phát Điên Rồi",
+                     "note":  "tabs=13, listed=24, chapters=300"
+                 },
+                 {
+                     "source":  "Dịch truyện tự động từ Qidian",
+                     "stage":  "PASS",
+                     "chars":  6169,
+                     "title":  "Tích hồi",
+                     "note":  "tabs=9, listed=12, chapters=42"
+                 },
+                 {
+                     "source":  "ebookbao",
+                     "stage":  "list",
+                     "chars":  0,
+                     "title":  "",
+                     "note":  "list: no article/book in first 5 tabs: The remote server returned an error: (400) Bad Request."
+                 }
+             ]
+}

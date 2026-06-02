@@ -1,0 +1,20 @@
+[
+  {
+    "type": "term",
+    "reviewed": true,
+    "source": "甲",
+    "target": "giap",
+    "universe": "fixture",
+    "scope": "universe",
+    "posTag": "N",
+    "contextMarkers": [
+      "盟友"
+    ]
+  },
+  {
+    "type": "tm",
+    "reviewed": true,
+    "source": "完整原文",
+    "target": "Ban dich da duyet"
+  }
+]

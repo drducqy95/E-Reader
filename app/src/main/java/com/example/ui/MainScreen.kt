@@ -18,7 +18,7 @@ fun MainScreen(
     libraryViewModel: LibraryViewModel,
     onBookClick: (Int) -> Unit,
     onSettingsClick: () -> Unit,
-    onExploreBookClick: (String) -> Unit,
+    onExploreBookClick: (String, String) -> Unit,
     onManageSourcesClick: () -> Unit
 ) {
     val bottomNavController = rememberNavController()

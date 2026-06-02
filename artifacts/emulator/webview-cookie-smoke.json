@@ -1,0 +1,11 @@
+﻿{
+    "activity":  "com.example.crawler.WebViewLoginActivity",
+    "loginRendered":  true,
+    "privateRenderedAfterRestart":  true,
+    "cookiePersistedAfterRestart":  true,
+    "privateRequestCookie":  "sid=browser-session",
+    "cookieClearedFromBrowserAndCrawlerStore":  true,
+    "loginScreenshot":  "D:\\APP\\e-reader\\artifacts\\emulator\\webview-cookie-login.png",
+    "privateScreenshot":  "D:\\APP\\e-reader\\artifacts\\emulator\\webview-cookie-private.png",
+    "clearedScreenshot":  "D:\\APP\\e-reader\\artifacts\\emulator\\webview-cookie-cleared.png"
+}

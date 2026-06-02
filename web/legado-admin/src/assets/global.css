@@ -1,0 +1,13 @@
+:root,
+body {
+  font-family: "Noto Sans", "Noto Sans SC", "Source Han Sans CN", "Microsoft YaHei", sans-serif !important;
+}
+
+/* Icon font helper class — must be global so BookShelf + BookChapter both work */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

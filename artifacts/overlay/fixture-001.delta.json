@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "baseGraphVersion": "none",
+  "deltaVersion": "fixture-001",
+  "entries": [
+    {
+      "type": "term",
+      "reviewed": true,
+      "source": "甲",
+      "target": "giap",
+      "universe": "fixture",
+      "scope": "universe",
+      "posTag": "N",
+      "contextMarkers": [
+        "盟友"
+      ]
+    },
+    {
+      "type": "tm",
+      "reviewed": true,
+      "source": "完整原文",
+      "target": "Ban dich da duyet"
+    }
+  ],
+  "sha256": "e0550e3a58053c8ca18bf1bb4f9f81124b0e2330826dc0aac03881d848eb8ce2"
+}

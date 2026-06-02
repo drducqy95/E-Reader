@@ -11,8 +11,16 @@ data class Book(
     val author: String,
     val format: String, // "TXT", "EPUB", "PDF"
     val uriString: String,
+    val sourceId: String = "",
+    val coverUrl: String = "",
+    val description: String = "",
+    val status: String = "",
+    val totalChapters: Int = 0,
+    val latestChapter: String = "",
     val progress: Float = 0f, // 0 to 1
     val addedDate: Long = System.currentTimeMillis(),
     val lastReadDate: Long = 0L,
     val totalSize: Long = 0L
 ) : Serializable
+
+fun Book.isOnlineBook(): Boolean = format in setOf("VBOOK", "LEGADO_JSON")

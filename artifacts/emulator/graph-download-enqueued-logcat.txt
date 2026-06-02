@@ -1,0 +1,1223 @@
+﻿--------- beginning of main
+06-01 06:44:11.402  1046  1046 D b/387844520: getOutlineOffsetX: measured width = 173, mNormalizedIconSize = 159, last updated width = 173
+06-01 06:44:11.425   678   802 I system_server: AssetManager2(0x7b2c7644c8d8) locale list changing from [] to [en-US]
+06-01 06:44:11.427   678   802 I system_server: AssetManager2(0x7b2c7644d238) locale list changing from [] to [en-US]
+06-01 06:44:11.429   678   802 I system_server: AssetManager2(0x7b2c76452698) locale list changing from [] to [en-US]
+06-01 06:44:11.433   678   799 I system_server: AssetManager2(0x7b2c764493b8) locale list changing from [] to [en-US]
+06-01 06:44:11.436   678   799 I system_server: AssetManager2(0x7b2c764499f8) locale list changing from [] to [en-US]
+06-01 06:44:11.440   678   802 I system_server: AssetManager2(0x7b2c763c97f8) locale list changing from [] to [en-US]
+06-01 06:44:11.442  1490  1967 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package: flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-01 06:44:11.443   678  1772 W SignedPackage: Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+06-01 06:44:11.444  1490  1967 D MediaProvider: Deleted 0 Android/media items belonging to com.aistudio.ereader.xynk on /data/user/0/com.google.android.providers.media.module/databases/external.db
+--------- beginning of system
+06-01 06:44:11.444   678   802 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+06-01 06:44:11.445   678   802 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-01 06:44:11.445  1490  1967 I FuseDaemon: Successfully deleted rows in leveldb for owner_id:  and ownerPackageIdentifier: com.aistudio.ereader.xynk::0
+06-01 06:44:11.446   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:11.446  1490  1967 D MediaGrants: Removed 0 media_grants for 0 user for [com.aistudio.ereader.xynk]. Reason: Package orphaned
+06-01 06:44:11.447   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:11.450  1502  1983 I AiAiEcho: [pnb-agg] Reload pnb aggregation on events deleted
+06-01 06:44:11.450  1502  1983 I AiAiEcho: [pnb-agg] pnb aggregation disabled.
+06-01 06:44:11.457  1490  1967 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package: flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-01 06:44:11.474  2411  2411 I Finsky  : [2] Memory trim requested to level 40
+06-01 06:44:11.474  2411  2411 I Finsky  : [2] Flushing in-memory image cache
+06-01 06:44:11.488  1046  1116 D SessionCommitReceiver: Removing unneeded PromiseIcon for package: com.aistudio.ereader.xynk, install reason: 0, alreadyAddedPromiseIcon: false
+06-01 06:44:11.503   678   782 I RoleService: Granting default roles...
+06-01 06:44:11.520   678   844 E AppOps  : attributionTag VCN not declared in manifest of android
+06-01 06:44:11.522   678  1076 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+06-01 06:44:11.523   678   719 D LauncherAppsService: onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=com.aistudio.ereader.xynk
+06-01 06:44:11.523   678   719 D LauncherAppsService: onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=com.aistudio.ereader.xynk
+06-01 06:44:11.523   678   719 D LauncherAppsService: onPackageAdded: Skipping - package filtered for user=UserHandle{0}, packageName=com.aistudio.ereader.xynk
+06-01 06:44:11.523   678   719 D LauncherAppsService: onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=com.aistudio.ereader.xynk
+06-01 06:44:11.523   551   551 D NativePermissionController: updatePackagesForUid, UidPackageState{uid: 10223, packageNames: [com.aistudio.ereader.xynk]}
+06-01 06:44:11.524   678   719 W PackageManager: Failed registering loading progress callback. Package is fully loaded.
+06-01 06:44:11.524  1046  1116 D LauncherAppsCallbackImpl: onPackageAdded triggered for packageName=com.aistudio.ereader.xynk, user=UserHandle{0}
+06-01 06:44:11.524  1046  1116 D PackageUpdatedTask: Package updated: mOp=ADD packages=[com.aistudio.ereader.xynk], user=UserHandle{0}
+06-01 06:44:11.524   678   885 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }
+06-01 06:44:11.524   678   885 D ShortcutService: adding package: com.aistudio.ereader.xynk userId=0
+06-01 06:44:11.530  1046  1116 I s.nexuslauncher: AssetManager2(0x7b2c763e6038) locale list changing from [] to [en-US]
+06-01 06:44:11.531   678   719 I system_server: AssetManager2(0x7b2c764448b8) locale list changing from [] to [en-US]
+06-01 06:44:11.534   678   893 I SdkSandboxManager: No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10223, mPackageName='com.aistudio.ereader.xynk, mAppProcessToken='null'}
+06-01 06:44:11.534   678   719 I system_server: AssetManager2(0x7b2c763d0b98) locale list changing from [] to [en-US]
+06-01 06:44:11.536   678   799 I system_server: AssetManager2(0x7b2c763ef318) locale list changing from [] to [en-US]
+06-01 06:44:11.538   678   711 I system_server: AssetManager2(0x7b2c763bcff8) locale list changing from [] to [en-US]
+06-01 06:44:11.543   678   719 I system_server: AssetManager2(0x7b2c7644db98) locale list changing from [] to [en-US]
+06-01 06:44:11.544  1502  1502 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.aistudio.ereader.xynk], userId:[0], reason:[package is added.].
+06-01 06:44:11.552  1502  4832 I ogle.android.as: AssetManager2(0x7b2c763e08b8) locale list changing from [] to [en-US]
+06-01 06:44:11.575  1038  1277 I SatelliteAppTracker: onPackageAdded : com.aistudio.ereader.xynk
+06-01 06:44:11.575  1038  1038 D CarrierSvcBindHelper: onPackageAdded: com.aistudio.ereader.xynk
+06-01 06:44:11.586  1046  2089 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-01 06:44:11.596   678  1772 W SignedPackage: Package doesn't have required signing certificate: com.google.android.retaildemo
+06-01 06:44:11.597   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+06-01 06:44:11.597   678  1654 W ActivityTaskManager: callingPackage for (uid=2000, pid=4881) has no WPC
+06-01 06:44:11.605   678  1654 I system_server: AssetManager2(0x7b2c763eff98) locale list changing from [] to [en-US]
+06-01 06:44:11.606  1046  1116 W HWUI    : Image decoding logging dropped!
+06-01 06:44:11.606  1038  1038 D CarrierSvcBindHelper: No carrier app for: 0
+06-01 06:44:11.607  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: E-Reader sectionName: E
+06-01 06:44:11.608  1046  1046 D AllAppsStore: setApps: apps.length=22
+06-01 06:44:11.608  1046  1046 D AllAppsStore: notifyUpdate: notifying listeners
+06-01 06:44:11.608  1046  1046 D ActivityAllAppsContainerView: onAppsUpdated; number of apps: 22
+06-01 06:44:11.608  1046  1046 D ActivityAllAppsContainerView: rebindAdapters: force: false
+06-01 06:44:11.608  1046  1046 D ActivityAllAppsContainerView: rebindAdapters: Not needed.
+06-01 06:44:11.608  1046  1046 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: Clearing FastScrollerSections.
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: DrDuc Translator
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: E with appInfoTitle: E-Reader
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+06-01 06:44:11.608  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: V with appInfoTitle: Voice Access
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: Clearing FastScrollerSections.
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: DrDuc Translator
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: E with appInfoTitle: E-Reader
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+06-01 06:44:11.609  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+06-01 06:44:11.610  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+06-01 06:44:11.610  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+06-01 06:44:11.610  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+06-01 06:44:11.610  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: V with appInfoTitle: Voice Access
+06-01 06:44:11.610  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+06-01 06:44:11.610  1046  1046 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+06-01 06:44:11.611   938   938 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+06-01 06:44:11.613   678  1654 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@b905840c does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-01 06:44:11.614   678  1654 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+06-01 06:44:11.614   678  1654 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+06-01 06:44:11.615   678  1654 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+06-01 06:44:11.615   678  1654 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+06-01 06:44:11.620   678   720 D ActivityManager: sync unfroze 3761 com.google.android.packageinstaller for 3
+06-01 06:44:11.622   678  1772 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+06-01 06:44:11.644   678  1654 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+06-01 06:44:11.671   556   573 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-01 06:44:11.683   678  1702 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:11.686   678  1715 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:11.687   678  1650 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:11.688   678  1650 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:11.690   678  1715 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:11.694   678  1654 I ActivityTaskManager: START u0 {flg=0x10000000 xflg=0x5 cmp=com.aistudio.ereader.xynk/com.example.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-01 06:44:11.694  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Settings sectionName: S
+06-01 06:44:11.694  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Photos sectionName: P
+06-01 06:44:11.695  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Battery sectionName: B
+06-01 06:44:11.697  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Chrome sectionName: C
+06-01 06:44:11.698  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Gmail sectionName: G
+06-01 06:44:11.698   938  1022 V WindowManagerShell: Transition requested (#20): android.os.BinderProxy@dd5f742 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=140 effectiveUid=10223 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.aistudio.ereader.xynk/com.example.MainActivity } baseActivity=ComponentInfo{com.aistudio.ereader.xynk/com.example.MainActivity} topActivity=ComponentInfo{com.aistudio.ereader.xynk/com.example.MainActivity} origActivity=null realActivity=ComponentInfo{com.aistudio.ereader.xynk/com.example.MainActivity} numActivities=1 lastActiveTime=874828 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@47c9353} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{3203490 com.example.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 692 - 804, 1772) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 20 }
+06-01 06:44:11.698  1046  1046 W SplitSelectStateCtor: Missing session instanceIds
+06-01 06:44:11.698   938  1022 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+06-01 06:44:11.698  1046  1046 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+06-01 06:44:11.700  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Drive sectionName: D
+06-01 06:44:11.701  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Clock sectionName: C
+06-01 06:44:11.701  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Contacts sectionName: C
+06-01 06:44:11.701  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Calendar sectionName: C
+06-01 06:44:11.701  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Maps sectionName: M
+06-01 06:44:11.701   678  1076 I AppsFilter: interaction: PackageSetting{4801e16 com.android.microdroid.empty_payload/10196} -> PackageSetting{ebbb397 com.aistudio.ereader.xynk/10223} BLOCKED
+06-01 06:44:11.701   678  1076 I AppsFilter: interaction: PackageSetting{46da984 com.drduc.translator/10217} -> PackageSetting{ebbb397 com.aistudio.ereader.xynk/10223} BLOCKED
+06-01 06:44:11.702  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: YouTube Music sectionName: Y
+06-01 06:44:11.702  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: YouTube sectionName: Y
+06-01 06:44:11.702  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Google sectionName: G
+06-01 06:44:11.702  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Android System Intelligence sectionName: A
+06-01 06:44:11.702  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Digital Wellbeing sectionName: D
+06-01 06:44:11.703  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: Conversations sectionName: C
+06-01 06:44:11.706   938  1022 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=527
+06-01 06:44:11.707   938  1140 I ndroid.systemui: AssetManager2(0x7b2c764031d8) locale list changing from [] to [en-US]
+06-01 06:44:11.710   678  1950 D CompatChangeReporter: Compat change id reported: 377864165; UID 10223; state: ENABLED
+06-01 06:44:11.710   556   556 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-01 06:44:11.739   678  1643 W ContentProviderHelper: Slow operation: 59ms so far, now at getContentProviderImpl: after updateOomAdj
+06-01 06:44:11.739   678  1643 W ContentProviderHelper: Slow operation: 59ms so far, now at getContentProviderImpl: done!
+06-01 06:44:11.762  1725  4885 I Icing   : doRemovePackageData com.aistudio.ereader.xynk
+06-01 06:44:11.770   678   678 W Looper  : Slow dispatch took 205ms main app=system_server main=true group=FOREGROUND h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@a38a6fa m=0
+06-01 06:44:11.800   678   711 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@b905840c does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-01 06:44:11.839  1725  4863 W SQLiteLog: (28) double-quoted string literal: "com.aistudio.ereader.xynk"
+06-01 06:44:11.846   678   678 W Looper  : Slow delivery took 236ms main app=system_server main=true group=FOREGROUND h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@4388249 m=0
+06-01 06:44:11.894   481   481 D Zygote  : Forked child process 4888
+06-01 06:44:11.899  1725  4371 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+06-01 06:44:11.900   678   721 W ActivityManager: Slow operation: 100ms so far, now at startProcess: returned from zygote!
+06-01 06:44:11.914   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:11.914   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:11.927   678   678 D AppSearchAppsIndexerManagerS: userid in package receiver: 10223
+06-01 06:44:11.945  1038  1272 D ImsResolver: maybeAddedImsService, packageName: com.aistudio.ereader.xynk
+06-01 06:44:11.945  1038  1272 V ImsResolver: searchForImsServices: package=com.aistudio.ereader.xynk, users=[UserHandle{0}]
+06-01 06:44:11.945  1038  1038 W VvmPkgInstalledRcvr: carrierVvmPkgAdded: carrier vvm packages doesn't contain com.aistudio.ereader.xynk
+06-01 06:44:11.949  1038  1272 V ImsResolver: searchForImsServices: package=com.aistudio.ereader.xynk, users=[UserHandle{0}]
+06-01 06:44:11.952   678   721 W ActivityManager: Slow operation: 152ms so far, now at startProcess: done updating battery stats
+06-01 06:44:11.952   678   721 W ActivityManager: Slow operation: 152ms so far, now at startProcess: building log message
+06-01 06:44:11.952   678   721 I ActivityManager: Start proc 4888:com.aistudio.ereader.xynk/u0a223 for next-top-activity {com.aistudio.ereader.xynk/com.example.MainActivity}
+06-01 06:44:11.953   678   721 W ActivityManager: Slow operation: 153ms so far, now at startProcess: starting to update pids map
+06-01 06:44:11.958   678   678 D TransparencyService: Not an update. Skipping...
+06-01 06:44:11.961  1339  1339 D PersistedStoragePackageUninstalledReceiver: Received android.intent.action.PACKAGE_FULLY_REMOVED for com.aistudio.ereader.xynk for u0
+06-01 06:44:11.977   938  1380 V WindowManagerShell: onTransitionReady(transaction=2911987827464)
+06-01 06:44:11.978   678   708 V WindowManager: Sent Transition (#20) createdAt=06-01 06:44:11.616 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=140 effectiveUid=10223 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.aistudio.ereader.xynk/com.example.MainActivity } baseActivity=ComponentInfo{com.aistudio.ereader.xynk/com.example.MainActivity} topActivity=ComponentInfo{com.aistudio.ereader.xynk/com.example.MainActivity} origActivity=null realActivity=ComponentInfo{com.aistudio.ereader.xynk/com.example.MainActivity} numActivities=1 lastActiveTime=874828 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{5dfc67b Task{953d74a #140 type=standard A=10223:com.aistudio.ereader.xynk}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{ce32c98 com.example.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 692 - 804, 1772) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 20 }
+06-01 06:44:11.978   678   708 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+06-01 06:44:11.978   678   708 V WindowManager:     info={id=20 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+06-01 06:44:11.978   678   708 V WindowManager:         {WCT{RemoteToken{5dfc67b Task{953d74a #140 type=standard A=10223:com.aistudio.ereader.xynk}}} m=OPEN f=NONE leash=Surface(name=Task=140)/@0x54a6e75 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+06-01 06:44:11.978   678   708 V WindowManager:         {WCT{RemoteToken{876ba2b Task{a5b78e7 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xf640d6e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+06-01 06:44:11.978   678   708 V WindowManager:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5480ce8 showWhenLocked=false})/@0xfc2ece9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+06-01 06:44:11.978   678   708 V WindowManager:     ]}
+06-01 06:44:11.988   678   721 I ActivityManager: ProcessObserver broadcast disabled
+06-01 06:44:11.988   678   721 W ActivityManager: Slow operation: 188ms so far, now at startProcess: done updating pids map
+06-01 06:44:12.024  1725  1725 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-01 06:44:12.028  1046  1046 D b/387844520: getOutlineOffsetX: measured width = 173, mNormalizedIconSize = 159, last updated width = 173
+06-01 06:44:12.031   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:12.031   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:12.031  1725  1725 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-01 06:44:12.040   938  1022 V WindowManagerShell: onTransitionReady (#20) android.os.BinderProxy@dd5f742: {id=20 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+06-01 06:44:12.040   938  1022 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=140)/@0x2ccfa84 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+06-01 06:44:12.040   938  1022 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xbb3126d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+06-01 06:44:12.040   938  1022 V WindowManagerShell:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5480ce8 showWhenLocked=false})/@0x82a3ea2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+06-01 06:44:12.040   938  1022 V WindowManagerShell:     ]}
+06-01 06:44:12.041   938  1022 V WindowManagerShell: Playing animation for (#20) android.os.BinderProxy@dd5f742@0
+06-01 06:44:12.042   938  1022 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+06-01 06:44:12.042   938  1022 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=20 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=140)/@0x2ccfa84 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xbb3126d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5480ce8 showWhenLocked=false})/@0x82a3ea2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}]}
+06-01 06:44:12.042   938  1022 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@e5f4348 windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@6bfc5e1, appThread = android.app.IApplicationThread$Stub$Proxy@af7ff06, debugName = overlayBackTransition }}
+06-01 06:44:12.042   938  1022 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fef99c7, appThread = android.app.IApplicationThread$Stub$Proxy@c94bf4, debugName = LauncherToDream }}
+06-01 06:44:12.042   938  1022 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d91df1d, appThread = android.app.IApplicationThread$Stub$Proxy@6850592, debugName = QuickstepLaunchHome }}
+06-01 06:44:12.042   938  1022 V WindowManagerShell:  Delegate animation for (#20) to null
+06-01 06:44:12.042   938  1022 V WindowManagerShell: start default transition animation, info = {id=20 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=140)/@0x2ccfa84 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xbb3126d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5480ce8 showWhenLocked=false})/@0x82a3ea2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}]}
+06-01 06:44:12.043   938  1022 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@b3b138f animAttr=0x13 type=OPEN isEntrance=false
+06-01 06:44:12.043   938  1022 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@7b7161c animAttr=0x12 type=OPEN isEntrance=true
+06-01 06:44:12.052   938  1022 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@98868a
+06-01 06:44:12.056   678  1772 I Role    : com.google.android.gms not qualified for android.app.role.SYSTEM_DEPENDENCY_INSTALLER due to missing RequiredComponent{mIntentFilterData=IntentFilterData{mAction='android.content.pm.action.INSTALL_DEPENDENCY', mCategories='[]', mDataScheme='null', mDataType='null'}, mMinTargetSdkVersion=1, mFlags='0', mPermission='android.permission.BIND_DEPENDENCY_INSTALLER', mQueryFlags=0, mMetaData=[]}
+06-01 06:44:12.056   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_DEPENDENCY_INSTALLER
+06-01 06:44:12.074  1339  1349 I PermissionControllerServiceImpl: Updating user sensitive for uid 10223
+06-01 06:44:12.079   678   678 D BackupManagerConstants: getFullBackupIntervalMilliseconds(...) returns 86400000
+06-01 06:44:12.079   678   678 D BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
+06-01 06:44:12.079   678   678 D BackupManagerConstants: getFullBackupRequireCharging(...) returns true
+06-01 06:44:12.108   678  1715 W ParceledListSlice: Element #27 is 21384 bytes.
+06-01 06:44:12.108  4888  4888 I io.ereader.xynk: Late-enabling -Xcheck:jni
+06-01 06:44:12.109   678  1693 W ParceledListSlice: Element #28 is 21564 bytes.
+06-01 06:44:12.110   678  1693 W ParceledListSlice: Element #29 is 21776 bytes.
+06-01 06:44:12.110   678  1693 W ParceledListSlice: Element #30 is 21288 bytes.
+06-01 06:44:12.113   678   678 W Looper  : Slow dispatch took 155ms main app=system_server main=true group=FOREGROUND h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@3591b86 m=0
+06-01 06:44:12.113   678   678 I AppsFilter: interaction: PackageSetting{4801e16 com.android.microdroid.empty_payload/10196} -> PackageSetting{ebbb397 com.aistudio.ereader.xynk/10223} BLOCKED
+06-01 06:44:12.114   678   678 I AppsFilter: interaction: PackageSetting{46da984 com.drduc.translator/10217} -> PackageSetting{ebbb397 com.aistudio.ereader.xynk/10223} BLOCKED
+06-01 06:44:12.135  1502  2316 I AiAiEcho: EchoSearch: WidgetFetcherImpl is initialized with [34] widgets [reason=package added for userId: 0]
+06-01 06:44:12.149  1339  1339 I SafetyLabelChangedBroadcastReceiver: received broadcast packageName: com.aistudio.ereader.xynk, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+06-01 06:44:12.179  4888  4888 I io.ereader.xynk: Using CollectorTypeCMC GC.
+06-01 06:44:12.180  4888  4888 W io.ereader.xynk: Unexpected CPU variant for x86: x86_64.
+06-01 06:44:12.180  4888  4888 W io.ereader.xynk: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+06-01 06:44:12.184  1038  1277 I SatelliteAppTracker: onPackageModified : com.aistudio.ereader.xynk
+06-01 06:44:12.187  1038  1038 D CarrierSvcBindHelper: onPackageModified: com.aistudio.ereader.xynk
+06-01 06:44:12.187  1038  1038 D CarrierSvcBindHelper: No carrier app for: 0
+06-01 06:44:12.194   560   582 I adbd    : jdwp connection from 4888
+06-01 06:44:12.197  4888  4888 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-01 06:44:12.199  2411  2411 I Finsky  : [2] Memory trim requested to level 40
+06-01 06:44:12.199  2411  2411 I Finsky  : [2] Flushing in-memory image cache
+06-01 06:44:12.199  2411  2411 I Finsky  : [2] Memory trim requested to level 40
+06-01 06:44:12.200  2411  2411 I Finsky  : [2] Flushing in-memory image cache
+06-01 06:44:12.201  2411  2411 I Finsky  : [2] ajwt - Received: android.intent.action.PACKAGE_ADDED, [VnSdAoRqS0Csie51y2fWaADrFJpr7JWvD05KPu_jrLA]
+06-01 06:44:12.203  3036  3036 I Finsky:background: [2] Memory trim requested to level 40
+06-01 06:44:12.204  3036  3036 I Finsky:background: [2] Memory trim requested to level 40
+06-01 06:44:12.204  3036  3036 I Finsky:background: [2] ajwj - Received: android.intent.action.PACKAGE_ADDED, [VnSdAoRqS0Csie51y2fWaADrFJpr7JWvD05KPu_jrLA]
+06-01 06:44:12.223  1725  4862 I Auth    : (REDACTED) [SupervisedAccountIntentOperation] onHandleIntent: %s
+06-01 06:44:12.230  1725  4862 I Dck     : (REDACTED) disableDckSupport: %s
+06-01 06:44:12.232  1725  4862 E Dck     : Could not get ProviderInfo when resolving the content provider authority. [CONTEXT service_id=289 ]
+06-01 06:44:12.232  1725  4862 E Dck     : Samsung Content Provider failed app verification [CONTEXT service_id=289 ]
+06-01 06:44:12.232  1725  4862 W Dck     : [WirelessCapabilitiesFeatures] wccSysProp: 0 [CONTEXT service_id=289 ]
+06-01 06:44:12.232  1725  4862 I Dck     : [WirelessCapabilitiesFeatures] wccOverride: not set [CONTEXT service_id=289 ]
+06-01 06:44:12.232  1725  4862 I Dck     : (REDACTED) [WirelessCapabilitiesFeatures] returned wcc: %s
+06-01 06:44:12.232  1725  4862 I Dck     : Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+06-01 06:44:12.232  1725  4862 I Dck     : Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+06-01 06:44:12.232  1725  4864 I Blockstore: (REDACTED) [DataStoreImpl] Clearing Blockstore Data for package %s
+06-01 06:44:12.232  1725  4864 I Blockstore: [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+06-01 06:44:12.233  1725  4864 W AppInstallOperation: FDL Migration::InstallIntentOperation by FDL Module [CONTEXT service_id=77 ]
+06-01 06:44:12.233  1725  4864 I PackageInstalledIntentO: Test flag v2 is disabled [CONTEXT service_id=469 ]
+06-01 06:44:12.234   678   885 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 (has extras) }
+06-01 06:44:12.234   678   885 D ShortcutService: changing package: com.aistudio.ereader.xynk userId=0
+06-01 06:44:12.237  1725  4862 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+06-01 06:44:12.271   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:12.283  3036  4807 I Finsky:background: [100] Wrote row to frosting DB: 2069
+06-01 06:44:12.300   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:12.301   938   938 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+06-01 06:44:12.302   678  1950 W ActivityTaskManager: takeTaskSnapshot: taskId=135 not found or not visible
+06-01 06:44:12.302  2411  2411 I Finsky  : [2] DTU: Received onPackageAdded, replacing: false
+06-01 06:44:12.302  2411  2411 I Finsky  : [2] Clearing split related stale data.
+06-01 06:44:12.303  1725  4871 I NearbyDiscovery: (REDACTED) processGrantSlicePermission: %s
+06-01 06:44:12.370  1502  4880 I AiAiEcho: AppIndexer Package:[com.aistudio.ereader.xynk] UserProfile:[0] Enabled:[true].
+06-01 06:44:12.370  1502  4880 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.aistudio.ereader.xynk], userId:[0], reason:[package is updated.].
+06-01 06:44:12.378  1046  1116 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.aistudio.ereader.xynk], user=UserHandle{0}
+06-01 06:44:12.420   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:12.423   938  1022 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#20) android.os.BinderProxy@dd5f742@0
+06-01 06:44:12.435   678  1643 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.436   678  1643 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.437   678  1643 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.437   678  1643 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.438   678  1643 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.467   678   678 W Looper  : Slow dispatch took 178ms main app=system_server main=true group=FOREGROUND h=com.android.server.power.Notifier$NotifierHandler c=com.android.server.power.Notifier$$ExternalSyntheticLambda2@7927378 m=0
+06-01 06:44:12.473  1046  1046 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+06-01 06:44:12.477  2411  2411 I Finsky  : [2] Do not start WearSupportService due to Wear service optimization
+06-01 06:44:12.478   938  1022 V WindowManagerShell: Track 0 became idle
+06-01 06:44:12.478   938  1022 V WindowManagerShell: All active transition animations finished
+06-01 06:44:12.495  1241  4848 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-01 06:44:12.511  1046  1046 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+06-01 06:44:12.515  1241  4846 I FontLog : (REDACTED) Package %s has no metadata
+06-01 06:44:12.520  3036  4807 I Finsky:background: [100] Wrote row to frosting DB: 2070
+06-01 06:44:12.540  3036  3036 I Finsky:background: [2] ajwj - Received: android.intent.action.PACKAGE_CHANGED, [VnSdAoRqS0Csie51y2fWaADrFJpr7JWvD05KPu_jrLA]
+06-01 06:44:12.552   678   782 I RoleService: Granting default roles...
+06-01 06:44:12.556   678   708 V WindowManager: Finish Transition (#20): created at 06-01 06:44:11.616 collect-started=0.073ms request-sent=77.125ms started=83.094ms ready=335.217ms sent=356.926ms commit=97.78ms finished=841.192ms
+06-01 06:44:12.562  1241  4857 I ProximityAuth: [RecentAppsMediator] Package added: (user=UserHandle{0}) com.aistudio.ereader.xynk
+06-01 06:44:12.586  3036  4807 I Finsky:background: [100] Wrote row to frosting DB: 2071
+06-01 06:44:12.586  2411  4821 I Finsky  : [153] [ContentSync] finished, scheduled=false
+06-01 06:44:12.588  1241  4843 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+06-01 06:44:12.604  3036  4807 I Finsky:background: [100] Wrote row to frosting DB: 2072
+06-01 06:44:12.605  2411  2411 I Finsky  : [2] ajwt - Received: android.intent.action.PACKAGE_CHANGED, [VnSdAoRqS0Csie51y2fWaADrFJpr7JWvD05KPu_jrLA]
+06-01 06:44:12.619  3036  3104 I Finsky:background: [53] RECEIVER_PACKAGE_MONITOR_BACKGROUND#logWorkEndAndFinishGoAsync: SUCCESS
+06-01 06:44:12.625  1725  3081 I gle.android.gms: AssetManager2(0x7b2c763c4398) locale list changing from [] to [en-US]
+06-01 06:44:12.626  1241  4857 I .gms.persistent: AssetManager2(0x7b2c763d6638) locale list changing from [] to [en-US]
+06-01 06:44:12.650  1046  1116 W HWUI    : Image decoding logging dropped!
+06-01 06:44:12.651  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: E-Reader sectionName: E
+06-01 06:44:12.653  1046  1046 D AllAppsStore: setApps: apps.length=22
+06-01 06:44:12.654  1046  1046 D AllAppsStore: notifyUpdate: notifying listeners
+06-01 06:44:12.654  1046  1046 D ActivityAllAppsContainerView: onAppsUpdated; number of apps: 22
+06-01 06:44:12.654  1046  1046 D ActivityAllAppsContainerView: rebindAdapters: force: false
+06-01 06:44:12.654  1046  1046 D ActivityAllAppsContainerView: rebindAdapters: Not needed.
+06-01 06:44:12.654  1046  1046 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+06-01 06:44:12.655  1046  1046 D AlphabeticalAppsList: Clearing FastScrollerSections.
+06-01 06:44:12.657  1046  1046 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+06-01 06:44:12.658  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+06-01 06:44:12.658  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: DrDuc Translator
+06-01 06:44:12.658  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: E with appInfoTitle: E-Reader
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: V with appInfoTitle: Voice Access
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: Clearing FastScrollerSections.
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: DrDuc Translator
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: E with appInfoTitle: E-Reader
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+06-01 06:44:12.659  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+06-01 06:44:12.660  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+06-01 06:44:12.660  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: V with appInfoTitle: Voice Access
+06-01 06:44:12.660  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+06-01 06:44:12.660  1046  1046 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+06-01 06:44:12.665  1046  1046 D b/387844520: getOutlineOffsetX: measured width = 173, mNormalizedIconSize = 159, last updated width = 173
+06-01 06:44:12.680  2411  2534 I Finsky  : [41] RECEIVER_PACKAGE_MONITOR#logWorkEndAndFinishGoAsync: SUCCESS
+06-01 06:44:12.686   678  1950 V SafetySourceDataValidat: Package: com.android.vending has expected signature
+06-01 06:44:12.687   678  1950 V SafetySourceDataValidat: Package: com.android.vending has expected signature
+06-01 06:44:12.688   678   678 W Looper  : Slow dispatch took 196ms main app=system_server main=true group=FOREGROUND h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@4baf2ab m=0
+06-01 06:44:12.712  1038  1038 D SatelliteController: packageStateChanged: package:com.aistudio.ereader.xynk DefaultSmsPackageName:com.google.android.apps.messaging
+06-01 06:44:12.712  1038  1038 V SatelliteController: Neither SMS or SatelliteGateway package
+06-01 06:44:12.716   678  1076 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.717  1038  1272 D ImsResolver: maybeAddedImsService, packageName: com.aistudio.ereader.xynk
+06-01 06:44:12.717   678   678 D AppSearchAppsIndexerManagerS: userid in package receiver: 10223
+06-01 06:44:12.717  1038  1272 V ImsResolver: searchForImsServices: package=com.aistudio.ereader.xynk, users=[UserHandle{0}]
+06-01 06:44:12.717  1038  1272 V ImsResolver: searchForImsServices: package=com.aistudio.ereader.xynk, users=[UserHandle{0}]
+06-01 06:44:12.718  1339  1349 I PermissionControllerServiceImpl: Updating user sensitive for uid 10223
+06-01 06:44:12.727  3036  3118 I Finsky:background: [63] RECEIVER_ENGAGE_PACKAGE_CHANGED#logWorkEndAndFinishGoAsync: SKIPPED_PRECONDITIONS_UNMET
+06-01 06:44:12.728   678   678 W Looper  : Drained
+06-01 06:44:12.736   678  1076 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.738   678  1950 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.746   678  1100 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.747  1725  1731 W gle.android.gms: Suspending all threads took: 66.590ms
+06-01 06:44:12.748   678  1739 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:12.749  1038  1038 D SatelliteAccessController: Current default SMS app:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.shared.receiver.SmsDeliverReceiver}
+06-01 06:44:12.749  1038  1038 D SatelliteController: getSelectedSatelliteSubId: subId=-1
+06-01 06:44:12.749  1038  1038 D SatelliteAccessController: supportedMsgApps:com.google.android.apps.messaging
+06-01 06:44:12.755  1725  3992 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+06-01 06:44:12.786  1241  4850 I Fitness : (REDACTED) OnPackageChangedOperation got intent: %s
+06-01 06:44:12.788  2411  2411 I Finsky  : [2] Memory trim requested to level 40
+06-01 06:44:12.789  2411  2411 I Finsky  : [2] Flushing in-memory image cache
+06-01 06:44:12.820  1725  4601 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+06-01 06:44:12.825  1241  4848 I Fitness : (REDACTED) FitCleanupIntentOperation received Intent %s
+06-01 06:44:12.830  3036  3036 I Finsky:background: [2] Memory trim requested to level 40
+06-01 06:44:12.858  1241  4848 I Fitness : (REDACTED) OnPackageChangedOperation got intent: %s
+06-01 06:44:12.869   678   802 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+06-01 06:44:12.876   678   802 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-01 06:44:12.883   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:12.884   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:12.887  1725  3081 I gle.android.gms: AssetManager2(0x7b2c763c4cf8) locale list changing from [] to [en-US]
+06-01 06:44:12.928  1725  4601 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+06-01 06:44:12.932  1241  4850 I Fitness : (REDACTED) FitCleanupIntentOperation received Intent %s
+06-01 06:44:12.960   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+06-01 06:44:12.992   678  1772 W SignedPackage: Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+06-01 06:44:12.998  1725  4601 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+06-01 06:44:13.044  1725  4601 I Icing   : Indexing done com.google.android.gms-apps
+06-01 06:44:13.060  1725  4601 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+06-01 06:44:13.062  1725  4601 I Icing   : Indexing done com.google.android.gms-apps
+06-01 06:44:13.069   678  1772 W SignedPackage: Package doesn't have required signing certificate: com.google.android.retaildemo
+06-01 06:44:13.069   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+06-01 06:44:13.074   678  1772 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+06-01 06:44:13.123   678  1772 I Role    : com.google.android.gms not qualified for android.app.role.SYSTEM_DEPENDENCY_INSTALLER due to missing RequiredComponent{mIntentFilterData=IntentFilterData{mAction='android.content.pm.action.INSTALL_DEPENDENCY', mCategories='[]', mDataScheme='null', mDataType='null'}, mMinTargetSdkVersion=1, mFlags='0', mPermission='android.permission.BIND_DEPENDENCY_INSTALLER', mQueryFlags=0, mMetaData=[]}
+06-01 06:44:13.123   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_DEPENDENCY_INSTALLER
+06-01 06:44:13.139  1725  4601 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+06-01 06:44:13.183  1725  4601 I Icing   : Indexing done com.google.android.gms-apps
+06-01 06:44:13.198   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+06-01 06:44:13.202  4888  4888 D nativeloader: Configuring clns-9 for other apk /data/app/~~YL3fzwmaZrnNxZy6POzz0g==/com.aistudio.ereader.xynk-CFQpmnjK7qmotSPlzTAarQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~YL3fzwmaZrnNxZy6POzz0g==/com.aistudio.ereader.xynk-CFQpmnjK7qmotSPlzTAarQ==/lib/x86_64:/data/app/~~YL3fzwmaZrnNxZy6POzz0g==/com.aistudio.ereader.xynk-CFQpmnjK7qmotSPlzTAarQ==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.aistudio.ereader.xynk
+06-01 06:44:13.207   678  1772 W SignedPackage: Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+06-01 06:44:13.208  4888  4888 I io.ereader.xynk: AssetManager2(0x7b2c763b4998) locale list changing from [] to [en-US]
+06-01 06:44:13.214  4888  4888 V GraphicsEnvironment: Currently set values for:
+06-01 06:44:13.214  4888  4888 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-01 06:44:13.214  4888  4888 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-01 06:44:13.214  4888  4888 V GraphicsEnvironment: com.aistudio.ereader.xynk is not listed in per-application setting
+06-01 06:44:13.214  4888  4888 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+06-01 06:44:13.214  4888  4888 V GraphicsEnvironment: com.aistudio.ereader.xynk is not listed in ANGLE allowlist or settings, returning default
+06-01 06:44:13.215  4888  4888 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-01 06:44:13.215  1725  4601 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+06-01 06:44:13.215  1725  4601 I Icing   : Indexing done com.google.android.gms-apps
+06-01 06:44:13.321  4888  4888 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+06-01 06:44:13.336   678   699 I system_server: Background concurrent mark compact GC freed 22MB AllocSpace bytes, 47(1332KB) LOS objects, 41% free, 34MB/58MB, paused 3.391ms,2.547ms total 2.027s
+06-01 06:44:13.342   678   701 W System  : A resource failed to call close. 
+06-01 06:44:13.347   678   701 W System  : A resource failed to call release. 
+06-01 06:44:13.490  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c3718) locale list changing from [] to [en-US]
+06-01 06:44:13.495  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d8ed8) locale list changing from [] to [en-US]
+06-01 06:44:13.499  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d8bb8) locale list changing from [] to [en-US]
+06-01 06:44:13.500  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e0598) locale list changing from [] to [en-US]
+06-01 06:44:13.502  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d5cd8) locale list changing from [] to [en-US]
+06-01 06:44:13.503  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763daaf8) locale list changing from [] to [en-US]
+06-01 06:44:13.509  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763dae18) locale list changing from [] to [en-US]
+06-01 06:44:13.520  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763dfc38) locale list changing from [] to [en-US]
+06-01 06:44:13.529  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d3a78) locale list changing from [] to [en-US]
+06-01 06:44:13.531  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763dff58) locale list changing from [] to [en-US]
+06-01 06:44:13.563  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763dff58) locale list changing from [] to [en-US]
+06-01 06:44:13.565  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763dae18) locale list changing from [] to [en-US]
+06-01 06:44:13.567  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:44:13.568   678  1715 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:13.567  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763dc0d8) locale list changing from [] to [en-US]
+06-01 06:44:13.570  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763daaf8) locale list changing from [] to [en-US]
+06-01 06:44:13.573  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d5cd8) locale list changing from [] to [en-US]
+06-01 06:44:13.579  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e0598) locale list changing from [] to [en-US]
+06-01 06:44:13.581  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d6f98) locale list changing from [] to [en-US]
+06-01 06:44:13.594  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d3a78) locale list changing from [] to [en-US]
+06-01 06:44:13.601  4888  4888 D WM-PackageManagerHelper: androidx.work.impl.background.systemjob.SystemJobService enabled
+06-01 06:44:13.601  4888  4888 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+06-01 06:44:13.606  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e1e98) locale list changing from [] to [en-US]
+06-01 06:44:13.609  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c3718) locale list changing from [] to [en-US]
+06-01 06:44:13.612  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d5058) locale list changing from [] to [en-US]
+06-01 06:44:13.616  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d8ed8) locale list changing from [] to [en-US]
+06-01 06:44:13.618  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e1538) locale list changing from [] to [en-US]
+06-01 06:44:13.620  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763cb738) locale list changing from [] to [en-US]
+06-01 06:44:13.622  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d40b8) locale list changing from [] to [en-US]
+06-01 06:44:13.624  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d2178) locale list changing from [] to [en-US]
+06-01 06:44:13.626  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763cb0f8) locale list changing from [] to [en-US]
+06-01 06:44:13.628  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5fb8) locale list changing from [] to [en-US]
+06-01 06:44:13.632  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c7bd8) locale list changing from [] to [en-US]
+06-01 06:44:13.635  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c8b78) locale list changing from [] to [en-US]
+06-01 06:44:13.636  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c2458) locale list changing from [] to [en-US]
+06-01 06:44:13.640  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c8538) locale list changing from [] to [en-US]
+06-01 06:44:13.642  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bef38) locale list changing from [] to [en-US]
+06-01 06:44:13.645  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bc058) locale list changing from [] to [en-US]
+06-01 06:44:13.649  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bfbb8) locale list changing from [] to [en-US]
+06-01 06:44:13.655  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c17d8) locale list changing from [] to [en-US]
+06-01 06:44:13.657  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bc698) locale list changing from [] to [en-US]
+06-01 06:44:13.662  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bd318) locale list changing from [] to [en-US]
+06-01 06:44:13.665  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5658) locale list changing from [] to [en-US]
+06-01 06:44:13.676  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0838) locale list changing from [] to [en-US]
+06-01 06:44:13.686  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c2db8) locale list changing from [] to [en-US]
+06-01 06:44:13.688  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c1e18) locale list changing from [] to [en-US]
+06-01 06:44:13.690  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763caab8) locale list changing from [] to [en-US]
+06-01 06:44:13.693  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c30d8) locale list changing from [] to [en-US]
+06-01 06:44:13.695  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5338) locale list changing from [] to [en-US]
+06-01 06:44:13.698  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5c98) locale list changing from [] to [en-US]
+06-01 06:44:13.702  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c3a38) locale list changing from [] to [en-US]
+06-01 06:44:13.708  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bd638) locale list changing from [] to [en-US]
+06-01 06:44:13.711  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c4078) locale list changing from [] to [en-US]
+06-01 06:44:13.721  4888  4908 D WM-ForceStopRunnable: The default process name was not specified.
+06-01 06:44:13.724  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0518) locale list changing from [] to [en-US]
+06-01 06:44:13.727  4888  4908 D WM-ForceStopRunnable: Performing cleanup operations.
+06-01 06:44:13.728  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0b58) locale list changing from [] to [en-US]
+06-01 06:44:13.731  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c46b8) locale list changing from [] to [en-US]
+06-01 06:44:13.733  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bec18) locale list changing from [] to [en-US]
+06-01 06:44:13.742  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bc9b8) locale list changing from [] to [en-US]
+06-01 06:44:13.744  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bcff8) locale list changing from [] to [en-US]
+06-01 06:44:13.747  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763be5d8) locale list changing from [] to [en-US]
+06-01 06:44:13.749  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c97f8) locale list changing from [] to [en-US]
+06-01 06:44:13.753  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e21b8) locale list changing from [] to [en-US]
+06-01 06:44:13.755  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d5ff8) locale list changing from [] to [en-US]
+06-01 06:44:13.757  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d5698) locale list changing from [] to [en-US]
+06-01 06:44:13.764  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e2b18) locale list changing from [] to [en-US]
+06-01 06:44:13.767  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e1b78) locale list changing from [] to [en-US]
+06-01 06:44:13.770  4888  4908 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+06-01 06:44:13.802  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763de978) locale list changing from [] to [en-US]
+06-01 06:44:13.806   678  1715 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+06-01 06:44:13.813   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:13.813   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:13.815  4888  4888 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+06-01 06:44:13.819  4888  4910 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+06-01 06:44:13.819  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763dd078) locale list changing from [] to [en-US]
+06-01 06:44:13.826  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d1e58) locale list changing from [] to [en-US]
+06-01 06:44:13.840  4888  4888 I io.ereader.xynk: AssetManager2(0x7b2c763ba118) locale list changing from [] to [en-US]
+06-01 06:44:13.858  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e1b78) locale list changing from [] to [en-US]
+06-01 06:44:13.866  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763ddcf8) locale list changing from [] to [en-US]
+06-01 06:44:13.868  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c33f8) locale list changing from [] to [en-US]
+06-01 06:44:13.871  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763d5ff8) locale list changing from [] to [en-US]
+06-01 06:44:13.890  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c97f8) locale list changing from [] to [en-US]
+06-01 06:44:13.892  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763be5d8) locale list changing from [] to [en-US]
+06-01 06:44:13.893  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763cadd8) locale list changing from [] to [en-US]
+06-01 06:44:13.896  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bcff8) locale list changing from [] to [en-US]
+06-01 06:44:13.898  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c8858) locale list changing from [] to [en-US]
+06-01 06:44:13.899  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bc9b8) locale list changing from [] to [en-US]
+06-01 06:44:13.900  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bec18) locale list changing from [] to [en-US]
+06-01 06:44:13.902  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e21b8) locale list changing from [] to [en-US]
+06-01 06:44:13.905  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0b58) locale list changing from [] to [en-US]
+06-01 06:44:13.907  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0518) locale list changing from [] to [en-US]
+06-01 06:44:13.909  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c4078) locale list changing from [] to [en-US]
+06-01 06:44:13.911  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c46b8) locale list changing from [] to [en-US]
+06-01 06:44:13.913  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c3a38) locale list changing from [] to [en-US]
+06-01 06:44:13.914  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c78b8) locale list changing from [] to [en-US]
+06-01 06:44:13.916  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5338) locale list changing from [] to [en-US]
+06-01 06:44:13.921  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c1e18) locale list changing from [] to [en-US]
+06-01 06:44:13.925  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c2db8) locale list changing from [] to [en-US]
+06-01 06:44:13.926   678  1576 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-01 06:44:13.926  4888  4910 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-01 06:44:13.927  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763caab8) locale list changing from [] to [en-US]
+06-01 06:44:13.928  4888  4910 I EGL_emulation: Opening libGLESv2_emulation.so
+06-01 06:44:13.934  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5658) locale list changing from [] to [en-US]
+06-01 06:44:13.937  4888  4888 D CompatChangeReporter: Compat change id reported: 377864165; UID 10223; state: ENABLED
+06-01 06:44:13.938  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c01f8) locale list changing from [] to [en-US]
+06-01 06:44:13.939  4888  4888 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+06-01 06:44:13.939  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763be8f8) locale list changing from [] to [en-US]
+06-01 06:44:13.943  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bf258) locale list changing from [] to [en-US]
+06-01 06:44:13.959  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c1af8) locale list changing from [] to [en-US]
+06-01 06:44:13.960  4888  4910 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-01 06:44:13.968  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0e78) locale list changing from [] to [en-US]
+06-01 06:44:13.974  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bfbb8) locale list changing from [] to [en-US]
+06-01 06:44:13.989  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bef38) locale list changing from [] to [en-US]
+06-01 06:44:14.000  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763b9ad8) locale list changing from [] to [en-US]
+06-01 06:44:14.002   678   757 I ActivityManager: Background started FGS: Allowed [callingPackage: com.google.android.apps.wellbeing; callingUid: 10147; uidState: BTOP; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.google.android.apps.wellbeing/com.google.apps.tiktok.concurrent.InternalForegroundService (has extras) }; code:BACKGROUND_ACTIVITY_PERMISSION; tempAllowListReason:<null>; allowWiu:58; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:44:14.004  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bccd8) locale list changing from [] to [en-US]
+06-01 06:44:14.015  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bb3d8) locale list changing from [] to [en-US]
+06-01 06:44:14.027  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763dc3f8) locale list changing from [] to [en-US]
+06-01 06:44:14.043  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bc058) locale list changing from [] to [en-US]
+06-01 06:44:14.048   678  1641 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10147 does not have any types
+06-01 06:44:14.058   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:14.063   678  1952 W ForegroundServiceTypeLoggerModule: FGS stop call for: 10147 has no types!
+06-01 06:44:14.064  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c2458) locale list changing from [] to [en-US]
+06-01 06:44:14.064   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:14.066  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c1198) locale list changing from [] to [en-US]
+06-01 06:44:14.070  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bfbb8) locale list changing from [] to [en-US]
+06-01 06:44:14.081  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c1af8) locale list changing from [] to [en-US]
+06-01 06:44:14.083  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bdf98) locale list changing from [] to [en-US]
+06-01 06:44:14.085  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bc698) locale list changing from [] to [en-US]
+06-01 06:44:14.095  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bf258) locale list changing from [] to [en-US]
+06-01 06:44:14.106  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0e78) locale list changing from [] to [en-US]
+06-01 06:44:14.112  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c01f8) locale list changing from [] to [en-US]
+06-01 06:44:14.115  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5658) locale list changing from [] to [en-US]
+06-01 06:44:14.118  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763caab8) locale list changing from [] to [en-US]
+06-01 06:44:14.124  4888  4888 W HWUI    : Unknown dataspace 0
+06-01 06:44:14.124  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0838) locale list changing from [] to [en-US]
+06-01 06:44:14.135  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c2db8) locale list changing from [] to [en-US]
+06-01 06:44:14.139  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bfed8) locale list changing from [] to [en-US]
+06-01 06:44:14.140  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c30d8) locale list changing from [] to [en-US]
+06-01 06:44:14.142  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5338) locale list changing from [] to [en-US]
+06-01 06:44:14.144   938   938 D TileServices: Couldn't find tile for ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.focusmode.quicksettings.FocusModeTileService}(0)
+06-01 06:44:14.145  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5c98) locale list changing from [] to [en-US]
+06-01 06:44:14.146  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c3a38) locale list changing from [] to [en-US]
+06-01 06:44:14.147  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763bd638) locale list changing from [] to [en-US]
+06-01 06:44:14.149  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c4078) locale list changing from [] to [en-US]
+06-01 06:44:14.154   678  1952 D CoreBackPreview: Window{8a2db35 u0 com.aistudio.ereader.xynk/com.example.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@80fe13b, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+06-01 06:44:14.164  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763e21b8) locale list changing from [] to [en-US]
+06-01 06:44:14.201  4888  4912 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+06-01 06:44:14.202  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c4078) locale list changing from [] to [en-US]
+06-01 06:44:14.203  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c0518) locale list changing from [] to [en-US]
+06-01 06:44:14.204  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c46b8) locale list changing from [] to [en-US]
+06-01 06:44:14.206  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5c98) locale list changing from [] to [en-US]
+06-01 06:44:14.207  2285  2469 I .apps.wellbeing: AssetManager2(0x7b2c763c5338) locale list changing from [] to [en-US]
+06-01 06:44:14.465  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c30d8) locale list changing from [] to [en-US]
+06-01 06:44:14.495  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c78b8) locale list changing from [] to [en-US]
+06-01 06:44:14.497  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bfed8) locale list changing from [] to [en-US]
+06-01 06:44:14.505  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c46b8) locale list changing from [] to [en-US]
+06-01 06:44:14.507  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bd638) locale list changing from [] to [en-US]
+06-01 06:44:14.510  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e21b8) locale list changing from [] to [en-US]
+06-01 06:44:14.512  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c3a38) locale list changing from [] to [en-US]
+06-01 06:44:14.513  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c1e18) locale list changing from [] to [en-US]
+06-01 06:44:14.514  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763caab8) locale list changing from [] to [en-US]
+06-01 06:44:14.516  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c01f8) locale list changing from [] to [en-US]
+06-01 06:44:14.517  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c0e78) locale list changing from [] to [en-US]
+06-01 06:44:14.519  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bf258) locale list changing from [] to [en-US]
+06-01 06:44:14.526  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bdf98) locale list changing from [] to [en-US]
+06-01 06:44:14.527  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c1af8) locale list changing from [] to [en-US]
+06-01 06:44:14.530  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bfbb8) locale list changing from [] to [en-US]
+06-01 06:44:14.532  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bef38) locale list changing from [] to [en-US]
+06-01 06:44:14.534  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bc698) locale list changing from [] to [en-US]
+06-01 06:44:14.534  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c2458) locale list changing from [] to [en-US]
+06-01 06:44:14.535  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763b9ad8) locale list changing from [] to [en-US]
+06-01 06:44:14.536  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bc058) locale list changing from [] to [en-US]
+06-01 06:44:14.537  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dc3f8) locale list changing from [] to [en-US]
+06-01 06:44:14.538  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e1858) locale list changing from [] to [en-US]
+06-01 06:44:14.541  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bccd8) locale list changing from [] to [en-US]
+06-01 06:44:14.543  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c0b58) locale list changing from [] to [en-US]
+06-01 06:44:14.543  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bec18) locale list changing from [] to [en-US]
+06-01 06:44:14.545  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c8858) locale list changing from [] to [en-US]
+06-01 06:44:14.546  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bc9b8) locale list changing from [] to [en-US]
+06-01 06:44:14.547  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763be5d8) locale list changing from [] to [en-US]
+06-01 06:44:14.547  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cadd8) locale list changing from [] to [en-US]
+06-01 06:44:14.549  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dd6b8) locale list changing from [] to [en-US]
+06-01 06:44:14.550  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d5698) locale list changing from [] to [en-US]
+06-01 06:44:14.551  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d5ff8) locale list changing from [] to [en-US]
+06-01 06:44:14.552  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e2b18) locale list changing from [] to [en-US]
+06-01 06:44:14.553  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e1b78) locale list changing from [] to [en-US]
+06-01 06:44:14.554  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d1e58) locale list changing from [] to [en-US]
+06-01 06:44:14.604   678   745 I AppsFilter: interaction: PackageSetting{4801e16 com.android.microdroid.empty_payload/10196} -> PackageSetting{739ea22 com.aistudio.ereader.xynk/10223} BLOCKED
+06-01 06:44:14.604   678   745 I AppsFilter: interaction: PackageSetting{46da984 com.drduc.translator/10217} -> PackageSetting{739ea22 com.aistudio.ereader.xynk/10223} BLOCKED
+06-01 06:44:14.612   678   782 I RoleService: Granting default roles...
+06-01 06:44:14.615   678   711 I system_server: AssetManager2(0x7b2c7644afd8) locale list changing from [] to [en-US]
+06-01 06:44:14.618  1038  1038 D CarrierSvcBindHelper: onPackageModified: com.aistudio.ereader.xynk
+06-01 06:44:14.618   678   719 I system_server: AssetManager2(0x7b2c763bcff8) locale list changing from [] to [en-US]
+06-01 06:44:14.620   678  1772 W SignedPackage: Package doesn't have required signing certificate: com.google.android.retaildemo
+06-01 06:44:14.620   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+06-01 06:44:14.621  1038  1038 D CarrierSvcBindHelper: No carrier app for: 0
+06-01 06:44:14.623   678  1772 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+06-01 06:44:14.625   938   938 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+06-01 06:44:14.626  1038  1277 I SatelliteAppTracker: onPackageModified : com.aistudio.ereader.xynk
+06-01 06:44:14.632  1339  1349 I PermissionControllerServiceImpl: Updating user sensitive for uid 10223
+06-01 06:44:14.639   678   885 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }
+06-01 06:44:14.639   678   885 D ShortcutService: changing package: com.aistudio.ereader.xynk userId=0
+06-01 06:44:14.647   678   802 I system_server: AssetManager2(0x7b2c76450a78) locale list changing from [] to [en-US]
+06-01 06:44:14.649   678  1952 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.649   678   799 I system_server: AssetManager2(0x7b2c7644fdf8) locale list changing from [] to [en-US]
+06-01 06:44:14.649   678   802 I system_server: AssetManager2(0x7b2c764467f8) locale list changing from [] to [en-US]
+06-01 06:44:14.650   678  1952 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.651   678  1952 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.652   678  1952 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.652   678  1952 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.652   678   802 I system_server: AssetManager2(0x7b2c76444598) locale list changing from [] to [en-US]
+06-01 06:44:14.654   678   802 I system_server: AssetManager2(0x7b2c76452698) locale list changing from [] to [en-US]
+06-01 06:44:14.656  1038  1272 D ImsResolver: maybeAddedImsService, packageName: com.aistudio.ereader.xynk
+06-01 06:44:14.656  1038  1272 V ImsResolver: searchForImsServices: package=com.aistudio.ereader.xynk, users=[UserHandle{0}]
+06-01 06:44:14.656  1038  1272 V ImsResolver: searchForImsServices: package=com.aistudio.ereader.xynk, users=[UserHandle{0}]
+06-01 06:44:14.657   678   802 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+06-01 06:44:14.658   678   802 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-01 06:44:14.659   678   799 I system_server: AssetManager2(0x7b2c764529b8) locale list changing from [] to [en-US]
+06-01 06:44:14.659   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:14.660  1038  1038 D SatelliteController: packageStateChanged: package:com.aistudio.ereader.xynk DefaultSmsPackageName:com.google.android.apps.messaging
+06-01 06:44:14.660  1038  1038 V SatelliteController: Neither SMS or SatelliteGateway package
+06-01 06:44:14.660   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:14.661   678   719 I system_server: AssetManager2(0x7b2c763d0b98) locale list changing from [] to [en-US]
+06-01 06:44:14.670   678   719 I system_server: AssetManager2(0x7b2c7644bf78) locale list changing from [] to [en-US]
+06-01 06:44:14.670   678  1772 I Role    : com.google.android.gms not qualified for android.app.role.SYSTEM_DEPENDENCY_INSTALLER due to missing RequiredComponent{mIntentFilterData=IntentFilterData{mAction='android.content.pm.action.INSTALL_DEPENDENCY', mCategories='[]', mDataScheme='null', mDataType='null'}, mMinTargetSdkVersion=1, mFlags='0', mPermission='android.permission.BIND_DEPENDENCY_INSTALLER', mQueryFlags=0, mMetaData=[]}
+06-01 06:44:14.670   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_DEPENDENCY_INSTALLER
+06-01 06:44:14.671   678   719 I system_server: AssetManager2(0x7b2c763e2e38) locale list changing from [] to [en-US]
+06-01 06:44:14.671   678  1952 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.678   678  1426 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.678   678  1641 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.678   678  1641 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.678   678  1641 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-01 06:44:14.684  1038  1038 D SatelliteAccessController: Current default SMS app:ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.shared.receiver.SmsDeliverReceiver}
+06-01 06:44:14.684  1038  1038 D SatelliteController: getSelectedSatelliteSubId: subId=-1
+06-01 06:44:14.684  1038  1038 D SatelliteAccessController: supportedMsgApps:com.google.android.apps.messaging
+06-01 06:44:14.685  1046  1116 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.aistudio.ereader.xynk], user=UserHandle{0}
+06-01 06:44:14.687  1502  4832 I AiAiEcho: AppIndexer Package:[com.aistudio.ereader.xynk] UserProfile:[0] Enabled:[true].
+06-01 06:44:14.687  1502  4832 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.aistudio.ereader.xynk], userId:[0], reason:[package is updated.].
+06-01 06:44:14.725   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+06-01 06:44:14.732   678  1772 I system_server: AssetManager2(0x7b2c76452cd8) locale list changing from [] to [en-US]
+06-01 06:44:14.736  1046  1116 W HWUI    : Image decoding logging dropped!
+06-01 06:44:14.736   678  1772 W SignedPackage: Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+06-01 06:44:14.737  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: E-Reader sectionName: E
+06-01 06:44:14.737  1046  1046 D AllAppsStore: setApps: apps.length=22
+06-01 06:44:14.738  1046  1046 D AllAppsStore: notifyUpdate: notifying listeners
+06-01 06:44:14.738  1046  1046 D ActivityAllAppsContainerView: onAppsUpdated; number of apps: 22
+06-01 06:44:14.738  1046  1046 D ActivityAllAppsContainerView: rebindAdapters: force: false
+06-01 06:44:14.738  1046  1046 D ActivityAllAppsContainerView: rebindAdapters: Not needed.
+06-01 06:44:14.738  1046  1046 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: Clearing FastScrollerSections.
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: DrDuc Translator
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: E with appInfoTitle: E-Reader
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+06-01 06:44:14.738  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: V with appInfoTitle: Voice Access
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: Clearing FastScrollerSections.
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: DrDuc Translator
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: E with appInfoTitle: E-Reader
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: V with appInfoTitle: Voice Access
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+06-01 06:44:14.739  1046  1046 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+06-01 06:44:14.741  1046  1046 D b/387844520: getOutlineOffsetX: measured width = 173, mNormalizedIconSize = 159, last updated width = 173
+06-01 06:44:14.854  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dd078) locale list changing from [] to [en-US]
+06-01 06:44:14.855  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763de978) locale list changing from [] to [en-US]
+06-01 06:44:14.857  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c7bd8) locale list changing from [] to [en-US]
+06-01 06:44:14.859  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e24d8) locale list changing from [] to [en-US]
+06-01 06:44:14.868  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c17d8) locale list changing from [] to [en-US]
+06-01 06:44:14.874  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e1b78) locale list changing from [] to [en-US]
+06-01 06:44:14.877  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d5ff8) locale list changing from [] to [en-US]
+06-01 06:44:14.894  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c33f8) locale list changing from [] to [en-US]
+06-01 06:44:14.895  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d5698) locale list changing from [] to [en-US]
+06-01 06:44:14.899  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e2b18) locale list changing from [] to [en-US]
+06-01 06:44:14.901  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c97f8) locale list changing from [] to [en-US]
+06-01 06:44:14.903  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763be5d8) locale list changing from [] to [en-US]
+06-01 06:44:14.905  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cadd8) locale list changing from [] to [en-US]
+06-01 06:44:14.906  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c8858) locale list changing from [] to [en-US]
+06-01 06:44:14.907  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bcff8) locale list changing from [] to [en-US]
+06-01 06:44:14.908  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c0b58) locale list changing from [] to [en-US]
+06-01 06:44:14.910  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bccd8) locale list changing from [] to [en-US]
+06-01 06:44:14.911  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dc3f8) locale list changing from [] to [en-US]
+06-01 06:44:14.912  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c8538) locale list changing from [] to [en-US]
+06-01 06:44:14.914  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c1198) locale list changing from [] to [en-US]
+06-01 06:44:14.917  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bfbb8) locale list changing from [] to [en-US]
+06-01 06:44:14.918  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bef38) locale list changing from [] to [en-US]
+06-01 06:44:14.921  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bc698) locale list changing from [] to [en-US]
+06-01 06:44:14.923  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bdf98) locale list changing from [] to [en-US]
+06-01 06:44:14.925  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bd318) locale list changing from [] to [en-US]
+06-01 06:44:14.926  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763be8f8) locale list changing from [] to [en-US]
+06-01 06:44:14.928  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763caab8) locale list changing from [] to [en-US]
+06-01 06:44:14.934  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c3a38) locale list changing from [] to [en-US]
+06-01 06:44:14.939  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c0518) locale list changing from [] to [en-US]
+06-01 06:44:14.940  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763bd638) locale list changing from [] to [en-US]
+06-01 06:44:14.942  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c4078) locale list changing from [] to [en-US]
+06-01 06:44:14.943  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c46b8) locale list changing from [] to [en-US]
+06-01 06:44:14.944  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c5c98) locale list changing from [] to [en-US]
+06-01 06:44:14.948  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c5338) locale list changing from [] to [en-US]
+06-01 06:44:14.950  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c30d8) locale list changing from [] to [en-US]
+06-01 06:44:14.954  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e21b8) locale list changing from [] to [en-US]
+06-01 06:44:14.956  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c8b78) locale list changing from [] to [en-US]
+06-01 06:44:14.958  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763ddcf8) locale list changing from [] to [en-US]
+06-01 06:44:14.959  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c6918) locale list changing from [] to [en-US]
+06-01 06:44:14.960  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c2a98) locale list changing from [] to [en-US]
+06-01 06:44:14.963  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c78b8) locale list changing from [] to [en-US]
+06-01 06:44:14.965  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e27f8) locale list changing from [] to [en-US]
+06-01 06:44:14.965  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d2178) locale list changing from [] to [en-US]
+06-01 06:44:14.967  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d40b8) locale list changing from [] to [en-US]
+06-01 06:44:14.969  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cb738) locale list changing from [] to [en-US]
+06-01 06:44:14.973  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e1538) locale list changing from [] to [en-US]
+06-01 06:44:14.975  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d8ed8) locale list changing from [] to [en-US]
+06-01 06:44:14.976  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d5058) locale list changing from [] to [en-US]
+06-01 06:44:14.979  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763e1e98) locale list changing from [] to [en-US]
+06-01 06:44:14.980  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c3718) locale list changing from [] to [en-US]
+06-01 06:44:14.982  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d5cd8) locale list changing from [] to [en-US]
+06-01 06:44:14.983  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dc0d8) locale list changing from [] to [en-US]
+06-01 06:44:14.984  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dae18) locale list changing from [] to [en-US]
+06-01 06:44:14.986  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dff58) locale list changing from [] to [en-US]
+06-01 06:44:14.988  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763daaf8) locale list changing from [] to [en-US]
+06-01 06:44:14.989  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763db778) locale list changing from [] to [en-US]
+06-01 06:44:14.990  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d46f8) locale list changing from [] to [en-US]
+06-01 06:44:14.992  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763db458) locale list changing from [] to [en-US]
+06-01 06:44:14.995  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d27b8) locale list changing from [] to [en-US]
+06-01 06:44:14.996  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d59b8) locale list changing from [] to [en-US]
+06-01 06:44:14.998  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d8258) locale list changing from [] to [en-US]
+06-01 06:44:14.999  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d4d38) locale list changing from [] to [en-US]
+06-01 06:44:15.000  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763de338) locale list changing from [] to [en-US]
+06-01 06:44:15.002  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d75d8) locale list changing from [] to [en-US]
+06-01 06:44:15.003  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dd398) locale list changing from [] to [en-US]
+06-01 06:44:15.004  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cd038) locale list changing from [] to [en-US]
+06-01 06:44:15.005  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d6958) locale list changing from [] to [en-US]
+06-01 06:44:15.006  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d9518) locale list changing from [] to [en-US]
+06-01 06:44:15.007  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d91f8) locale list changing from [] to [en-US]
+06-01 06:44:15.009  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d6318) locale list changing from [] to [en-US]
+06-01 06:44:15.011  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d5378) locale list changing from [] to [en-US]
+06-01 06:44:15.012  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d7f38) locale list changing from [] to [en-US]
+06-01 06:44:15.014  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d72b8) locale list changing from [] to [en-US]
+06-01 06:44:15.015  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d8578) locale list changing from [] to [en-US]
+06-01 06:44:15.016  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c7ef8) locale list changing from [] to [en-US]
+06-01 06:44:15.018  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d7c18) locale list changing from [] to [en-US]
+06-01 06:44:15.020  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cd678) locale list changing from [] to [en-US]
+06-01 06:44:15.021  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cc6d8) locale list changing from [] to [en-US]
+06-01 06:44:15.024  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d11d8) locale list changing from [] to [en-US]
+06-01 06:44:15.026  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763da198) locale list changing from [] to [en-US]
+06-01 06:44:15.030  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cf298) locale list changing from [] to [en-US]
+06-01 06:44:15.031  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d3758) locale list changing from [] to [en-US]
+06-01 06:44:15.032  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d9b58) locale list changing from [] to [en-US]
+06-01 06:44:15.034  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cb418) locale list changing from [] to [en-US]
+06-01 06:44:15.036  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c7598) locale list changing from [] to [en-US]
+06-01 06:44:15.038  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763be2b8) locale list changing from [] to [en-US]
+06-01 06:44:15.041  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c65f8) locale list changing from [] to [en-US]
+06-01 06:44:15.043  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c9e38) locale list changing from [] to [en-US]
+06-01 06:44:15.044  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c8218) locale list changing from [] to [en-US]
+06-01 06:44:15.047  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c6c38) locale list changing from [] to [en-US]
+06-01 06:44:15.049  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d2498) locale list changing from [] to [en-US]
+06-01 06:44:15.051  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c3d58) locale list changing from [] to [en-US]
+06-01 06:44:15.056  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763ca158) locale list changing from [] to [en-US]
+06-01 06:44:15.058  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d2ad8) locale list changing from [] to [en-US]
+06-01 06:44:15.059  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d2df8) locale list changing from [] to [en-US]
+06-01 06:44:15.061  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cbd78) locale list changing from [] to [en-US]
+06-01 06:44:15.063  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c62d8) locale list changing from [] to [en-US]
+06-01 06:44:15.064  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cd998) locale list changing from [] to [en-US]
+06-01 06:44:15.065  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d1818) locale list changing from [] to [en-US]
+06-01 06:44:15.066  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cff18) locale list changing from [] to [en-US]
+06-01 06:44:15.067  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cc9f8) locale list changing from [] to [en-US]
+06-01 06:44:15.068  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d3118) locale list changing from [] to [en-US]
+06-01 06:44:15.069  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cdfd8) locale list changing from [] to [en-US]
+06-01 06:44:15.071  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cfbf8) locale list changing from [] to [en-US]
+06-01 06:44:15.073  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cec58) locale list changing from [] to [en-US]
+06-01 06:44:15.074  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d0558) locale list changing from [] to [en-US]
+06-01 06:44:15.076  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763d0b98) locale list changing from [] to [en-US]
+06-01 06:44:15.077  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763ce2f8) locale list changing from [] to [en-US]
+06-01 06:44:15.079  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cf8d8) locale list changing from [] to [en-US]
+06-01 06:44:15.081  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763c49d8) locale list changing from [] to [en-US]
+06-01 06:44:15.083  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763ca478) locale list changing from [] to [en-US]
+06-01 06:44:15.084  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763cba58) locale list changing from [] to [en-US]
+06-01 06:44:15.085  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dba98) locale list changing from [] to [en-US]
+06-01 06:44:15.087  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dcd58) locale list changing from [] to [en-US]
+06-01 06:44:15.089  2285  2458 I .apps.wellbeing: AssetManager2(0x7b2c763dec98) locale list changing from [] to [en-US]
+06-01 06:44:15.561  4888  4892 I io.ereader.xynk: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+06-01 06:44:15.940   556  1146 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10223 pid=0
+06-01 06:44:15.940   556  1146 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10223 => denied (905 us)
+06-01 06:44:15.940   556   574 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10223 pid=4888
+06-01 06:44:15.940   556   574 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10223 => denied (484 us)
+06-01 06:44:15.940   556  1146 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10223 pid=0
+06-01 06:44:15.940   556  1146 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10223 => denied (606 us)
+06-01 06:44:15.941   556  1146 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10223 pid=0
+06-01 06:44:15.941   556  1146 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10223 => denied (378 us)
+06-01 06:44:15.941   556   574 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10223 pid=4888
+06-01 06:44:15.941   556   574 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10223 => denied (478 us)
+06-01 06:44:16.054   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:16.055   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:16.055   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10150} in 1ms
+06-01 06:44:16.055   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:16.057   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:16.057   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20150} in 2ms
+06-01 06:44:16.414   678  1952 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10223 pid=0
+06-01 06:44:16.414   678  1952 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10223 => denied (301 us)
+06-01 06:44:16.415   678  1952 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10223 pid=0
+06-01 06:44:16.415   678  1952 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10223 => denied (128 us)
+06-01 06:44:16.415   678  1952 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10223 pid=0
+06-01 06:44:16.415   678  1952 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10223 => denied (117 us)
+06-01 06:44:16.419   678   708 I ActivityTaskManager: Displayed com.aistudio.ereader.xynk/com.example.MainActivity for user 0: +4s822ms
+06-01 06:44:16.441  4888  4909 I HWUI    : Davey! duration=2286ms; Flags=1, FrameTimelineVsyncId=12625, IntendedVsync=877275212128, Vsync=877275212128, InputEventId=0, HandleInputStart=877287417400, AnimationStart=877287458600, PerformTraversalsStart=877287505400, DrawStart=879127808100, FrameDeadline=877291878794, FrameStartTime=877287368300, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=879152801400, SyncStart=879154040800, IssueDrawCommandsStart=879154184500, SwapBuffers=879415914300, FrameCompleted=879562453500, DequeueBufferDuration=32300, QueueBufferDuration=612700, GpuCompleted=879562453500, SwapBuffersCompleted=879547454200, DisplayPresentTime=0, CommandSubmissionCompleted=879415914300, 
+06-01 06:44:16.555  4888  4888 I Choreographer: Skipped 136 frames!  The application may be doing too much work on its main thread.
+06-01 06:44:16.670   678   798 I ImeTracker: com.aistudio.ereader.xynk:8eb4a68e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+06-01 06:44:16.709  1403  1403 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [nim->nif] takes 28ms
+06-01 06:44:16.719  1403  1403 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2259 
+06-01 06:44:16.722  1403  1403 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+06-01 06:44:16.746   678  1654 I ImeTracker: system_server:d8119277: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+06-01 06:44:16.755  1403  1403 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1446 onStartInput(EditorInfo{EditorInfo{packageName=com.aistudio.ereader.xynk, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+06-01 06:44:16.756  1403  1403 W AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():327 Null input view, cannot update padding!
+06-01 06:44:16.759  1403  1403 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+06-01 06:44:16.760   678   711 I ImeTracker: system_server:d8119277: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-01 06:44:16.761  4888  4897 I HWUI    : Davey! duration=2441ms; Flags=0, FrameTimelineVsyncId=12647, IntendedVsync=877408545456, Vsync=879675212032, InputEventId=0, HandleInputStart=879693235400, AnimationStart=879693267000, PerformTraversalsStart=879750756000, DrawStart=879752748200, FrameDeadline=879591878702, FrameStartTime=879691054400, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=879755983800, SyncStart=879769021200, IssueDrawCommandsStart=879769230800, SwapBuffers=879771611700, FrameCompleted=879862844000, DequeueBufferDuration=48000, QueueBufferDuration=68116300, GpuCompleted=879862528800, SwapBuffersCompleted=879862844000, DisplayPresentTime=0, CommandSubmissionCompleted=879771611700, 
+06-01 06:44:16.768   678  1654 W PackageConfigPersister: App-specific configuration not found for packageName: com.aistudio.ereader.xynk and userId: 0
+06-01 06:44:16.773  4888  4888 D InsetsController: hide(ime(), fromIme=false)
+06-01 06:44:16.780  4888  4888 I ImeTracker: com.aistudio.ereader.xynk:8eb4a68e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+06-01 06:44:16.822  1241  1748 I FontLog : (REDACTED) Received query %s, URI %s
+06-01 06:44:16.822  1241  1748 I FontLog : (REDACTED) Query [%s] resolved to %s
+06-01 06:44:16.825  1241  1748 I FontLog : (REDACTED) Fetch %s end status %s
+06-01 06:44:16.841  1241  1748 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+06-01 06:44:16.850  1046  1046 D BaseDepthController: setSurface:
+06-01 06:44:16.850  1046  1046 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+06-01 06:44:16.850  1046  1046 D BaseDepthController: 	mBaseSurface: null
+06-01 06:44:16.851  1046  1046 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+06-01 06:44:16.851  1046  1046 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+06-01 06:44:16.851  1046  1046 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 72a59688580715d19f0e415c69e80376c2f062d1648c80db6730905005a27c20:4)
+06-01 06:44:16.851  1046  1046 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 72a59688580715d19f0e415c69e80376c2f062d1648c80db6730905005a27c20:1)
+06-01 06:44:16.851  1046  1046 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 72a59688580715d19f0e415c69e80376c2f062d1648c80db6730905005a27c20:34)
+06-01 06:44:16.852  1046  1046 D StatsLog: LAUNCHER_ONSTOP
+06-01 06:44:16.856  1046  1046 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+06-01 06:44:16.862  1241  1748 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+06-01 06:44:16.904   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:17.613  4834  4840 I AidlLazyServiceRegistrar: Process has 0 (of 2 available) client(s) in use after notification android.system.virtualizationmaintenance has clients: 0
+06-01 06:44:17.613  4834  4840 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+06-01 06:44:17.617  4834  4840 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+06-01 06:44:19.222  4888  4929 D ProfileInstaller: Installing profile for com.aistudio.ereader.xynk
+06-01 06:44:19.661   678   920 W FileUtils: Failed to chmod(AtomicFile[/data/system_de/0/system/game-manager-service.xml]): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+06-01 06:44:19.830   938  1022 D ShellBackPreview: Finishing gesture with event action: 1
+06-01 06:44:19.830   938  1022 D ShellBackPreview: onGestureFinished called while no gesture is started
+06-01 06:44:19.884   678  1654 D CoreBackPreview: Window{8a2db35 u0 com.aistudio.ereader.xynk/com.example.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@4d6d9d4, mPriority=0, mIsAnimationCallback=true, mOverrideBehavior=0}
+06-01 06:44:19.921   678   780 D ActivityManager: freezing 3676 com.google.android.documentsui
+06-01 06:44:19.926   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:19.927   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:19.928   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10105} in 2ms
+06-01 06:44:21.047   678   780 D ActivityManager: freezing 3640 com.android.chrome
+06-01 06:44:21.049   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:21.050   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:21.050   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10150} in 1ms
+06-01 06:44:21.471   678   780 D ActivityManager: freezing 1866 android.process.media
+06-01 06:44:21.473   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:21.473   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:21.473   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10101} in 2ms
+06-01 06:44:21.677   678   780 D ActivityManager: freezing 3761 com.google.android.packageinstaller
+06-01 06:44:21.680   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:21.681   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:21.681   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10104} in 2ms
+06-01 06:44:21.961   678   757 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.aistudio.ereader.xynk/com.example.web.LocalWebService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:44:22.028   266  4781 I keystore2: system/security/keystore2/watchdog/src/lib.rs:377 - Watchdog thread idle -> terminating. Have a great day.
+06-01 06:44:22.140   678  1654 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { cmp=com.aistudio.ereader.xynk/com.example.web.LocalWebService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:44:22.141   678  1654 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10223 does not have any types
+06-01 06:44:22.141   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:22.786   678   780 D ActivityManager: freezing 2411 com.android.vending
+06-01 06:44:22.996   678   780 D ActivityManager: freezing 3036 com.android.vending:background
+06-01 06:44:22.999   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:23.002   678   838 D InetDiagMessage: Destroyed 1 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:23.002   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10144} in 4ms
+06-01 06:44:23.575  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:44:23.575   678  1654 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:24.269  4888  4908 W JobInfo : Requested important-while-foreground flag for job0 is ignored and takes no effect
+06-01 06:44:24.272  4888  4908 D WM-SystemJobScheduler: Scheduling work ID 8fff6518-5eae-400c-a5e8-39292adfbfbaJob ID 0
+06-01 06:44:24.281  4888  4908 D WM-GreedyScheduler: Starting work for 8fff6518-5eae-400c-a5e8-39292adfbfba
+06-01 06:44:24.290  4888  4888 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0)
+06-01 06:44:24.306  4888  4908 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0)
+06-01 06:44:24.309  4888  4908 D WM-Processor: Work WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0) is already enqueued for processing
+06-01 06:44:24.399  4888  4888 D WM-WorkerWrapper: Starting work for com.example.data.GraphDownloadWorker
+06-01 06:44:24.413  4888  4913 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver enabled
+06-01 06:44:24.415  4888  4912 I WM-Processor: Moving WorkSpec (8fff6518-5eae-400c-a5e8-39292adfbfba) to the foreground
+06-01 06:44:24.424   678  1654 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:44:24.435  4888  4888 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+06-01 06:44:24.436  4888  4888 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 8fff6518-5eae-400c-a5e8-39292adfbfba, notificationType :1)
+06-01 06:44:24.438   678  1654 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:44:24.439   678  1654 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10223 does not have any types
+06-01 06:44:24.441   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:24.441  4888  4888 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 8fff6518-5eae-400c-a5e8-39292adfbfba, notificationType :1)
+06-01 06:44:24.447   678   757 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:1; bindFromPackage:null: isBindService:false]
+06-01 06:44:24.482  4888  4912 I WM-WorkerWrapper: Worker result RETRY for Work [ id=8fff6518-5eae-400c-a5e8-39292adfbfba, tags={ com.example.data.GraphDownloadWorker } ]
+06-01 06:44:24.495  4888  4888 D WM-Processor: Processor 8fff6518-5eae-400c-a5e8-39292adfbfba executed; reschedule = true
+06-01 06:44:24.495  4888  4888 D WM-SystemJobService: 8fff6518-5eae-400c-a5e8-39292adfbfba executed on JobScheduler
+06-01 06:44:24.496  4888  4888 D WM-SystemFgDispatcher: Removing Notification (id: 1123, workSpecId: WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0), notificationType: 1
+06-01 06:44:24.498  4888  4888 I WM-SystemFgDispatcher: Stopping foreground service
+06-01 06:44:24.498  4888  4888 D WM-SystemFgService: Shutting down.
+06-01 06:44:24.499   678  1654 D ActivityManager: Stop FGS timeout: ServiceRecord{87d517a u0 com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService c:com.aistudio.ereader.xynk}
+06-01 06:44:24.500   678  1654 W ForegroundServiceTypeLoggerModule: FGS stop call for: 10223 has no types!
+06-01 06:44:24.505  4888  4912 D WM-GreedyScheduler: Cancelling work ID 8fff6518-5eae-400c-a5e8-39292adfbfba
+06-01 06:44:24.505   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:24.508   678   757 W JobScheduler: Job didn't exist in JobStore: e4be022 {androidx.work.systemjobscheduler} #u0a223/0 @androidx.work.systemjobscheduler@com.aistudio.ereader.xynk/androidx.work.impl.background.systemjob.SystemJobService
+06-01 06:44:24.509  4888  4888 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0)
+06-01 06:44:24.516  4888  4912 D WM-SystemJobScheduler: Scheduling work ID 8fff6518-5eae-400c-a5e8-39292adfbfbaJob ID 1
+06-01 06:44:25.424   678   745 I AppsFilter: interaction: PackageSetting{4801e16 com.android.microdroid.empty_payload/10196} -> PackageSetting{6ff0b46 com.aistudio.ereader.xynk/10223} BLOCKED
+06-01 06:44:25.425   678   745 I AppsFilter: interaction: PackageSetting{46da984 com.drduc.translator/10217} -> PackageSetting{6ff0b46 com.aistudio.ereader.xynk/10223} BLOCKED
+06-01 06:44:25.435   678   782 I RoleService: Granting default roles...
+06-01 06:44:25.436   678   885 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 pkg=android (has extras) }
+06-01 06:44:25.436   678   885 D ShortcutService: changing package: com.aistudio.ereader.xynk userId=0
+06-01 06:44:25.439  1046  1116 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.aistudio.ereader.xynk], user=UserHandle{0}
+06-01 06:44:25.440  1502  4880 I AiAiEcho: AppIndexer Package:[com.aistudio.ereader.xynk] UserProfile:[0] Enabled:[true].
+06-01 06:44:25.440  1502  4880 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.aistudio.ereader.xynk], userId:[0], reason:[package is updated.].
+06-01 06:44:25.448   678  1772 W SignedPackage: Package doesn't have required signing certificate: com.google.android.retaildemo
+06-01 06:44:25.451   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+06-01 06:44:25.452   678   802 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+06-01 06:44:25.453   678   802 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-01 06:44:25.456   678  1772 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+06-01 06:44:25.461   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:25.462   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:25.462   678   678 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:25.465   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:25.465   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:25.468  1339  1349 I PermissionControllerServiceImpl: Updating user sensitive for uid 10223
+06-01 06:44:25.488   678  1772 I Role    : com.google.android.gms not qualified for android.app.role.SYSTEM_DEPENDENCY_INSTALLER due to missing RequiredComponent{mIntentFilterData=IntentFilterData{mAction='android.content.pm.action.INSTALL_DEPENDENCY', mCategories='[]', mDataScheme='null', mDataType='null'}, mMinTargetSdkVersion=1, mFlags='0', mPermission='android.permission.BIND_DEPENDENCY_INSTALLER', mQueryFlags=0, mMetaData=[]}
+06-01 06:44:25.488   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_DEPENDENCY_INSTALLER
+06-01 06:44:25.502  1046  1116 W HWUI    : Image decoding logging dropped!
+06-01 06:44:25.503  1046  1116 D AlphabeticIndexCompat: computeSectionName: cs: E-Reader sectionName: E
+06-01 06:44:25.504  1046  1046 D AllAppsStore: setApps: apps.length=22
+06-01 06:44:25.504  1046  1046 D AllAppsStore: notifyUpdate: notifying listeners
+06-01 06:44:25.504  1046  1046 D ActivityAllAppsContainerView: onAppsUpdated; number of apps: 22
+06-01 06:44:25.504  1046  1046 D ActivityAllAppsContainerView: rebindAdapters: force: false
+06-01 06:44:25.504  1046  1046 D ActivityAllAppsContainerView: rebindAdapters: Not needed.
+06-01 06:44:25.504  1046  1046 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: Clearing FastScrollerSections.
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: DrDuc Translator
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: E with appInfoTitle: E-Reader
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: V with appInfoTitle: Voice Access
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+06-01 06:44:25.504  1046  1046 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: Clearing FastScrollerSections.
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: DrDuc Translator
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: E with appInfoTitle: E-Reader
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: V with appInfoTitle: Voice Access
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+06-01 06:44:25.505  1046  1046 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+06-01 06:44:25.509  1046  1046 D b/387844520: getOutlineOffsetX: measured width = 173, mNormalizedIconSize = 159, last updated width = 173
+06-01 06:44:25.520   678   771 D ActivityManager: sync unfroze 2411 com.android.vending for 6
+06-01 06:44:25.527   678  1772 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+06-01 06:44:25.536   678  1772 W SignedPackage: Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+06-01 06:44:25.541   678  1426 W ProcessStats: Tracking association SourceState{d8fadec system/1000 ImpBg #3193} whose proc state 6 is better than process ProcessState{85bca22 com.android.vending/10144 pkg=com.android.vending} proc state 14 (13 skipped)
+06-01 06:44:25.543  2411  2411 I Finsky  : [2] SCH: job service start with id 9177.
+06-01 06:44:25.562  2411  4821 I Finsky  : [153] SCH: Satisfied jobs for 9177 are: 12-1
+06-01 06:44:25.566  2411  4945 I Finsky  : [156] SCH: Job 12-1 starting
+06-01 06:44:25.568  2411  2411 I Finsky  : [2] WM::SCH: Logging work start for 12-1
+06-01 06:44:25.570  2411  2411 I Finsky  : [2] [ContentSync] job started
+06-01 06:44:25.668  2411  4946 I Finsky  : [157] App states replicator found 27 unowned apps
+06-01 06:44:25.670  2411  2562 I Finsky  : [58] Completed 0 account content syncs with 0 successful.
+06-01 06:44:25.670  2411  2411 I Finsky  : [2] [ContentSync] Installation state replication succeeded.
+06-01 06:44:25.670  2411  2411 I Finsky  : [2] SCH: jobFinished: 12-1. TimeElapsed: 103ms.
+06-01 06:44:25.670  2411  2411 I Finsky  : [2] WM::SCH: Logging work end for 12-1
+06-01 06:44:25.696  2411  2557 I Finsky  : [55] SCH: Scheduling phonesky job Id: 1-1337, CT: 1780264207054, Constraints: [{ L: 14399995, D: 44153747, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+06-01 06:44:25.703  2411  2558 I Finsky  : [56] SCH: Scheduling 1 system job(s)
+06-01 06:44:25.703  2411  2558 I Finsky  : [56] SCH: Scheduling system job Id: 9179, L: 7541346, D: 37295098, C: false, I: false, N: 1
+06-01 06:44:25.713  2411  4945 I Finsky  : [156] SCH: job service finished with id 9177.
+06-01 06:44:25.729  2411  2411 I Finsky  : [2] Memory trim requested to level 40
+06-01 06:44:25.729  2411  2411 I Finsky  : [2] Flushing in-memory image cache
+06-01 06:44:25.864   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:25.865   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:25.865   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10147} in 1ms
+06-01 06:44:25.865   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:25.866   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:25.866   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20147} in 1ms
+06-01 06:44:26.907   678   832 D WifiConfigStore: Writing to stores completed in 14 ms.
+06-01 06:44:27.812  1725  1725 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-01 06:44:33.587  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:44:33.587   678  1426 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:35.787   678   780 D ActivityManager: freezing 2411 com.android.vending
+06-01 06:44:35.790   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:35.791   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:35.791   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10144} in 2ms
+06-01 06:44:38.234   678   780 D ActivityManager: freezing 1725 com.google.android.gms
+06-01 06:44:43.592  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:44:43.593   678  1426 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:45.584   678   780 D ActivityManager: freezing 1339 com.google.android.permissioncontroller
+06-01 06:44:45.586   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:45.587   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:45.587   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10207} in 2ms
+06-01 06:44:49.345   678   780 D ActivityManager: freezing 1770 com.android.keychain
+06-01 06:44:49.346   678   780 D ActivityManager: freezing 2835 com.android.dynsystem:dynsystem
+06-01 06:44:49.346   678   780 D ActivityManager: freezing 2789 com.android.dynsystem
+06-01 06:44:49.347   678   780 D ActivityManager: freezing 1842 com.android.localtransport
+06-01 06:44:50.871   678   780 D ActivityManager: freezing 2285 com.google.android.apps.wellbeing
+06-01 06:44:50.886   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:44:50.887   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:44:50.887   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10147} in 1ms
+06-01 06:44:53.592  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:44:53.592   678   757 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:44:54.505  4888  4888 D WM-DelayedWorkTracker: Scheduling work 8fff6518-5eae-400c-a5e8-39292adfbfba
+06-01 06:44:54.506  4888  4888 D WM-GreedyScheduler: Starting work for 8fff6518-5eae-400c-a5e8-39292adfbfba
+06-01 06:44:54.508  4888  4912 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0)
+06-01 06:44:54.512  4888  4888 D WM-WorkerWrapper: Starting work for com.example.data.GraphDownloadWorker
+06-01 06:44:54.517  4888  4908 I WM-Processor: Moving WorkSpec (8fff6518-5eae-400c-a5e8-39292adfbfba) to the foreground
+06-01 06:44:54.521   678   757 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:44:54.525  4888  4888 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+06-01 06:44:54.525  4888  4888 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 8fff6518-5eae-400c-a5e8-39292adfbfba, notificationType :1)
+06-01 06:44:54.526   678   757 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:44:54.526   678   757 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10223 does not have any types
+06-01 06:44:54.527   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:54.528  4888  4888 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 8fff6518-5eae-400c-a5e8-39292adfbfba, notificationType :1)
+06-01 06:44:54.532   678   757 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:1; bindFromPackage:null: isBindService:false]
+06-01 06:44:54.536  4888  4912 I WM-WorkerWrapper: Worker result RETRY for Work [ id=8fff6518-5eae-400c-a5e8-39292adfbfba, tags={ com.example.data.GraphDownloadWorker } ]
+06-01 06:44:54.540  4888  4888 D WM-Processor: Processor 8fff6518-5eae-400c-a5e8-39292adfbfba executed; reschedule = true
+06-01 06:44:54.541  4888  4888 D WM-SystemFgDispatcher: Removing Notification (id: 1123, workSpecId: WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0), notificationType: 1
+06-01 06:44:54.542  4888  4888 I WM-SystemFgDispatcher: Stopping foreground service
+06-01 06:44:54.542  4888  4888 D WM-SystemFgService: Shutting down.
+06-01 06:44:54.546   678  1654 D ActivityManager: Stop FGS timeout: ServiceRecord{45c5020 u0 com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService c:com.aistudio.ereader.xynk}
+06-01 06:44:54.546   678  1654 W ForegroundServiceTypeLoggerModule: FGS stop call for: 10223 has no types!
+06-01 06:44:54.548   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:44:54.553  4888  4912 D WM-GreedyScheduler: Cancelling work ID 8fff6518-5eae-400c-a5e8-39292adfbfba
+06-01 06:44:54.557  4888  4912 D WM-SystemJobScheduler: Scheduling work ID 8fff6518-5eae-400c-a5e8-39292adfbfbaJob ID 2
+06-01 06:45:03.595  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:45:03.595   678   757 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:45:08.974   678   730 D KernelCpuUidUserSysTimeReader: Removing uids 10221-10221
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: Cannot acquire BluetoothActivityEnergyInfo
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: java.lang.RuntimeException: error: 11
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:372)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectBluetoothActivityInfo(BluetoothPowerStatsCollector.java:192)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectStats(BluetoothPowerStatsCollector.java:155)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.PowerStatsCollector.collectAndDeliverStats(PowerStatsCollector.java:176)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.PowerStatsCollector$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.os.Handler.handleCallback(Handler.java:995)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.os.Looper.loopOnce(Looper.java:248)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.os.Looper.loop(Looper.java:338)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: error: 11
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onBluetoothActivityEnergyInfoAvailable$0(BluetoothAdapter.java:1037)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils.lambda$executeFromBinder$0(BluetoothUtils.java:343)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at com.android.server.SystemServerInitThreadPool$$ExternalSyntheticLambda0.execute(R8$$SyntheticClass:0)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils.executeFromBinder(BluetoothUtils.java:343)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onBluetoothActivityEnergyInfoAvailable(BluetoothAdapter.java:1035)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.bluetooth.IBluetoothActivityEnergyInfoListener$Stub.onTransact(IBluetoothActivityEnergyInfoListener.java:98)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+06-01 06:45:08.987   678   730 E BluetoothPowerStatsCollector: 	at android.os.Binder.execTransact(Binder.java:1365)
+06-01 06:45:13.607  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:45:13.608   678  1654 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:45:23.607  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:45:23.607   678  1654 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:45:32.761   678   708 I GnssLocationProvider: WakeLock acquired by handleDownloadPsdsData()
+06-01 06:45:32.762   678  4950 E GnssPsdsDownloader: No Long-Term PSDS servers were specified in the GnssConfiguration
+06-01 06:45:33.617  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:45:33.617   678  1654 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:45:41.852  1019  1205 D ApfFilter: (wlan0): Adding RA fe80::2 -> ff02::1 1800s fec0::/64 86400s/14400s DNS 1200000s fec0::3 
+06-01 06:45:43.630  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:45:43.631   678  1641 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:45:53.629  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:45:53.630   678  1641 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:45:54.587  4888  4888 D WM-DelayedWorkTracker: Scheduling work 8fff6518-5eae-400c-a5e8-39292adfbfba
+06-01 06:45:54.587  4888  4888 D WM-GreedyScheduler: Starting work for 8fff6518-5eae-400c-a5e8-39292adfbfba
+06-01 06:45:54.589  4888  4912 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0)
+06-01 06:45:54.595  4888  4888 D WM-WorkerWrapper: Starting work for com.example.data.GraphDownloadWorker
+06-01 06:45:54.599  4888  4908 I WM-Processor: Moving WorkSpec (8fff6518-5eae-400c-a5e8-39292adfbfba) to the foreground
+06-01 06:45:54.602   678  1641 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:45:54.605  4888  4888 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND xflg=0x4 cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+06-01 06:45:54.605  4888  4888 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 8fff6518-5eae-400c-a5e8-39292adfbfba, notificationType :1)
+06-01 06:45:54.606   678  1654 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+06-01 06:45:54.606   678  1654 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10223 does not have any types
+06-01 06:45:54.608   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:45:54.608  4888  4888 D WM-SystemFgDispatcher: Notifying with (id:1123, workSpecId: 8fff6518-5eae-400c-a5e8-39292adfbfba, notificationType :1)
+06-01 06:45:54.612   678  1654 I ActivityManager: Background started FGS: Allowed [callingPackage: com.aistudio.ereader.xynk; callingUid: 10223; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=ACTION_START_FOREGROUND cmp=com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:1; bindFromPackage:null: isBindService:false]
+06-01 06:45:54.615  4888  4913 I WM-WorkerWrapper: Worker result RETRY for Work [ id=8fff6518-5eae-400c-a5e8-39292adfbfba, tags={ com.example.data.GraphDownloadWorker } ]
+06-01 06:45:54.621  4888  4888 D WM-Processor: Processor 8fff6518-5eae-400c-a5e8-39292adfbfba executed; reschedule = true
+06-01 06:45:54.622  4888  4888 D WM-SystemFgDispatcher: Removing Notification (id: 1123, workSpecId: WorkGenerationalId(workSpecId=8fff6518-5eae-400c-a5e8-39292adfbfba, generation=0), notificationType: 1
+06-01 06:45:54.623  4888  4888 I WM-SystemFgDispatcher: Stopping foreground service
+06-01 06:45:54.623  4888  4888 D WM-SystemFgService: Shutting down.
+06-01 06:45:54.623   678  1654 D ActivityManager: Stop FGS timeout: ServiceRecord{f2e598b u0 com.aistudio.ereader.xynk/androidx.work.impl.foreground.SystemForegroundService c:com.aistudio.ereader.xynk}
+06-01 06:45:54.624   678  1654 W ForegroundServiceTypeLoggerModule: FGS stop call for: 10223 has no types!
+06-01 06:45:54.625   678   886 D BackgroundInstallControlService: Package event received: 0
+06-01 06:45:54.632  4888  4908 D WM-GreedyScheduler: Cancelling work ID 8fff6518-5eae-400c-a5e8-39292adfbfba
+06-01 06:45:54.638  4888  4908 D WM-SystemJobScheduler: Scheduling work ID 8fff6518-5eae-400c-a5e8-39292adfbfbaJob ID 3
+06-01 06:46:03.634  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:46:03.634   678  1654 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:46:12.041  1241  4855 I .gms.persistent: Explicit concurrent mark compact GC freed 2610KB AllocSpace bytes, 0(0B) LOS objects, 24% free, 13MB/17MB, paused 1.442ms,2.256ms total 74.842ms
+06-01 06:46:13.634  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:46:13.635   678  1641 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:46:14.839   678  1641 D WifiNl80211Manager: Scan result ready event
+06-01 06:46:14.840   678  1641 D WifiNative: Scan result ready event
+06-01 06:46:14.842  1241  1537 I WifiScanner: onFullResults
+06-01 06:46:14.842  1241  1748 I WifiScanner: onFullResults
+06-01 06:46:14.845   678   832 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+06-01 06:46:18.772   678   720 D ActivityManager: sync unfroze 3383 com.google.android.configupdater for 3
+06-01 06:46:18.775  3383  3383 D ConfigUpdater: PhenotypeBroadcastReceiver : com.google.android.configupdater.DELAYED_FLAG_COMMIT
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.NetworkWatchlist.NetworkWatchlistConfig@a14dc48, StoredState: com.google.android.configupdater.StoredState@dafeae1, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@87dc006, FlagHelper: com.google.android.configupdater.PhenotypeHelper@8b0c6c7
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Setting up DownloadManagerHelper
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Loaded SharedPreferences: NetworkWatchlistDownload
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Got DownloadManager service
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Is wearable device: false
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Received intent with action: com.google.android.configupdater.PHENOTYPE_CHANGED
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Handling flag changed intent
+06-01 06:46:18.846  3383  3383 D ConfigUpdater: Stored content URI: null, stored metadata URI: null
+06-01 06:46:18.861  3383  3383 D ConfigUpdater: Flag content URL: , flag metadata URL: 
+06-01 06:46:18.861  3383  3383 E ConfigUpdater: Content URL or Metadata URL from flag is empty, ignoring flag change.
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.LangId.LangIdConfig@7690863, StoredState: com.google.android.configupdater.StoredState@7d8ec60, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@1a21519, FlagHelper: com.google.android.configupdater.PhenotypeHelper@ec6c9de
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Setting up DownloadManagerHelper
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Loaded SharedPreferences: LangIdDownload
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Got DownloadManager service
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Is wearable device: false
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Received intent with action: com.google.android.configupdater.PHENOTYPE_CHANGED
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Handling flag changed intent
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Stored content URI: https://www.gstatic.com/android/text_classifier/langid/q/v1/model.smfb, stored metadata URI: https://www.gstatic.com/android/text_classifier/langid/q/v1/model.smfb.metadata
+06-01 06:46:18.863  3383  3383 D ConfigUpdater: Flag content URL: https://www.gstatic.com/android/text_classifier/langid/q/v1/model.smfb, flag metadata URL: https://www.gstatic.com/android/text_classifier/langid/q/v1/model.smfb.metadata
+06-01 06:46:18.865  3383  3383 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.SmartSelection.SmartSelectionConfig@3506e8c, StoredState: com.google.android.configupdater.StoredState@735e9d5, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@ef1a5ea, FlagHelper: com.google.android.configupdater.PhenotypeHelper@a6d20db
+06-01 06:46:18.865  3383  3383 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+06-01 06:46:18.865  3383  3383 D ConfigUpdater: Setting up DownloadManagerHelper
+06-01 06:46:18.865  3383  3383 D ConfigUpdater: Loaded SharedPreferences: SmartSelectionDownload
+06-01 06:46:18.865  3383  3383 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+06-01 06:46:18.866  3383  3383 D ConfigUpdater: Got DownloadManager service
+06-01 06:46:18.866  3383  3383 D ConfigUpdater: Is wearable device: false
+06-01 06:46:18.866  3383  3383 D ConfigUpdater: Received intent with action: com.google.android.configupdater.PHENOTYPE_CHANGED
+06-01 06:46:18.866  3383  3383 D ConfigUpdater: Handling flag changed intent
+06-01 06:46:18.866  3383  3383 D ConfigUpdater: Stored content URI: https://www.gstatic.com/android/text_classifier/s/v902/en.fb, stored metadata URI: https://www.gstatic.com/android/text_classifier/s/v902/en.fb.metadata
+06-01 06:46:18.866  3383  3383 D ConfigUpdater: Flag content URL: https://www.gstatic.com/android/text_classifier/s/v902/en.fb, flag metadata URL: https://www.gstatic.com/android/text_classifier/s/v902/en.fb.metadata
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.ConversationActions.ConversationActionsConfig@f84e51, StoredState: com.google.android.configupdater.StoredState@53c36b6, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@a12efb7, FlagHelper: com.google.android.configupdater.PhenotypeHelper@da40324
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: Setting up DownloadManagerHelper
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: Loaded SharedPreferences: ConversationActionsDownload
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: Got DownloadManager service
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: Is wearable device: false
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: Received intent with action: com.google.android.configupdater.PHENOTYPE_CHANGED
+06-01 06:46:18.867  3383  3383 D ConfigUpdater: Handling flag changed intent
+06-01 06:46:18.868  3383  3383 D ConfigUpdater: Stored content URI: https://www.gstatic.com/android/text_classifier/actions/q/v104/en.model, stored metadata URI: https://www.gstatic.com/android/text_classifier/actions/q/v104/en.model.metadata
+06-01 06:46:18.868  3383  3383 D ConfigUpdater: Flag content URL: https://www.gstatic.com/android/text_classifier/actions/q/v104/en.model, flag metadata URL: https://www.gstatic.com/android/text_classifier/actions/q/v104/en.model.metadata
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.CarrierId.CarrierIdConfig@acd0842, StoredState: com.google.android.configupdater.StoredState@6dcd053, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@6b02d90, FlagHelper: com.google.android.configupdater.PhenotypeHelper@4457689
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Setting up DownloadManagerHelper
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Loaded SharedPreferences: CarrierIdDownload
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Got DownloadManager service
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Is wearable device: false
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Received intent with action: com.google.android.configupdater.PHENOTYPE_CHANGED
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Handling flag changed intent
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Stored content URI: null, stored metadata URI: null
+06-01 06:46:18.869  3383  3383 D ConfigUpdater: Flag content URL: , flag metadata URL: 
+06-01 06:46:18.869  3383  3383 E ConfigUpdater: Content URL or Metadata URL from flag is empty, ignoring flag change.
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.EmergencyNumberDb.EmergencyNumberDbConfig@25a1eaf, StoredState: com.google.android.configupdater.StoredState@1292bc, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@a05f245, FlagHelper: com.google.android.configupdater.PhenotypeHelper@ab75d9a
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Setting up DownloadManagerHelper
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Loaded SharedPreferences: EmergencyNumberDbDownload
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Got DownloadManager service
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Is wearable device: false
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Received intent with action: com.google.android.configupdater.PHENOTYPE_CHANGED
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Handling flag changed intent
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Stored content URI: null, stored metadata URI: null
+06-01 06:46:18.871  3383  3383 D ConfigUpdater: Flag content URL: , flag metadata URL: 
+06-01 06:46:18.871  3383  3383 E ConfigUpdater: Content URL or Metadata URL from flag is empty, ignoring flag change.
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: UpdateRequestReceiver constructed with Config: com.google.android.configupdater.TelephonyConfigUpdate.TelephonyConfigUpdateConfig@6d41ea8, StoredState: com.google.android.configupdater.StoredState@7986dc1, DownloadManagerHelper: com.google.android.configupdater.DownloadManagerHelper@19db966, FlagHelper: com.google.android.configupdater.PhenotypeHelper@98934a7
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Setting up preferences for StoredState, Downloader, and FlagHelper
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Setting up DownloadManagerHelper
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Loaded SharedPreferences: TelephonyConfigUpdateDownload
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Using Lollipop+ download directory: /data/user/0/com.google.android.configupdater/files/downloads
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Got DownloadManager service
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Is wearable device: false
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Received intent with action: com.google.android.configupdater.PHENOTYPE_CHANGED
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Handling flag changed intent
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Stored content URI: null, stored metadata URI: null
+06-01 06:46:18.874  3383  3383 D ConfigUpdater: Flag content URL: , flag metadata URL: 
+06-01 06:46:18.875  3383  3383 E ConfigUpdater: Content URL or Metadata URL from flag is empty, ignoring flag change.
+06-01 06:46:19.350   678  1426 W AppOps  : Noting op not finished: uid 10148 pkg com.google.android.gms code 113 startTime of in progress event=1780270259055
+06-01 06:46:19.360   678  1426 W AppOps  : Noting op not finished: uid 10148 pkg com.google.android.gms code 79 startTime of in progress event=1780270286537
+06-01 06:46:19.377  1241  1869 I ActivityScheduler: nextTriggerTime: 1240612, in 238100ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 80000
+06-01 06:46:20.364   678  1654 W AppOps  : Noting op not finished: uid 10148 pkg com.google.android.gms code 113 startTime of in progress event=1780270259055
+06-01 06:46:23.640  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:46:23.641   678  1654 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:46:23.889   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:46:23.889   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:46:23.890   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10132} in 2ms
+06-01 06:46:23.891   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:46:23.892   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:46:23.892   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20132} in 2ms
+06-01 06:46:25.164   678   771 I JobServiceContext: Letting 5d1100c #u0a145/15 com.google.android.settings.intelligence/.modules.appsearchindexing.impl.AppSearchIndexUpdateJobService continue to run past min execution time
+06-01 06:46:28.884   678   780 D ActivityManager: freezing 3383 com.google.android.configupdater
+06-01 06:46:28.887   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-01 06:46:28.888   678   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-01 06:46:28.888   678   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10132} in 2ms
+06-01 06:46:33.651  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:46:33.651   678  1641 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:46:37.772   678  1075 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=1020906 mSleepTimeMs=84 mIdleTimeMs=28 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[2, 6, 12, 16, 18],mRxTimeMs=18}]}
+06-01 06:46:43.651  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:46:43.652   678  1075 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:46:53.654  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:46:53.656   678  1715 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:47:03.668  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:47:03.668   678  1715 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:47:13.683  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:47:13.683   678  1715 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:47:23.692  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:47:23.693   678  1715 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:47:28.532  1241  4855 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 2151667]
+06-01 06:47:28.536  1241  4855 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 2151671]
+06-01 06:47:33.705  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:47:33.706   678  1075 W IPCThreadState: Sending oneway calls to frozen process.
+06-01 06:47:39.512   678   699 I system_server: Background concurrent mark compact GC freed 23MB AllocSpace bytes, 38(1012KB) LOS objects, 41% free, 33MB/57MB, paused 1.786ms,2.228ms total 141.264ms
+06-01 06:47:39.513   678   700 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-01 06:47:42.615  4776  4778 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+06-01 06:47:42.615  4776  4778 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+06-01 06:47:42.616  4776  4778 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+06-01 06:47:43.708  1038  1277 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-01 06:47:43.709   678  1641 W IPCThreadState: Sending oneway calls to frozen process.
