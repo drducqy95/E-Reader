@@ -1,0 +1,6 @@
+{
+  "name": "E-Reader",
+  "description": "App đọc sách hỗ trợ các định dạng, chế độ ban đêm, từ điển offline và thư viện thông minh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
